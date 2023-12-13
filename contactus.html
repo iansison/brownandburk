@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brown & Burk PH</title>
+    <script src="main.js" defer></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link jQuery from the CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!-- Link Bootstrap JavaScript from the CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="primary-header flex">
+        <div class="company-logo flex">
+            <img src="img/fav-121x70 - Copy.png" alt="" class="bb-logo"> 
+            <span>Brown & Burk Philippines, Inc.</span>
+        </div>
+            <!-- <form action="" class="search-bar">
+                <input type="text" name="" id="" placeholder="Search for products">
+                <button><img src="" alt="">Search</button>
+            </form> -->
+
+        <!-- </div> -->
+        <div class="flex btn-nav">
+            <button aria-controls = "primary-navigation" aria-expanded="false" class="mobile-nav-toggle">
+                <span class="sr-only">Menu</span>
+            </button>
+        </div>
+
+        <nav>
+            <ul id = "primary-navigation" data-visible = "false" class="primary-navigation flex">
+                <li class="nav-link"><a href="index.html">Home</a></li>
+                <li class="nav-link" data-link = "AboutUs"><a href="#">About Us</a></li>
+                <li class="nav-link" data-link = "https://www.microlabsltd.com/"><a href="#">Microlabs</a></li>
+                <li class="nav-link" data-link = "products"><a href="#">Products</a></li>
+                <li class="nav-link" data-link = "management"><a href="#">Management Team</a></li>
+                <li class="active nav-link" data-link = "contactus"><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+  
+        <h1 class="section-header">Contact Us</h1>
+        
+        <div class="contact-wrapper">
+        
+        <!-- Left contact page --> 
+          
+          <form id="contact-form" class="form-horizontal" role="form">
+             
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+              </div>
+            </div>
+      
+            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+            
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+              </div>
+            
+            </button>
+            
+          </form>
+          
+        <!-- Left contact page --> 
+          
+            <div class="direct-contact-container">
+      
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Legazpi Village, Makati</span></i></li>
+                
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(02) 8892 7757</a></span></i></li>
+                
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">contact@brown-burk.com</a></span></i></li>
+                
+              </ul>
+      
+              <hr>
+              <ul class="social-media-list">
+
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                </li>       
+              </ul>
+              <hr>
+      
+              <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+      
+            </div>
+          
+        </div>
+        
+      </section>  
+
+
+
+
+      
+      <!-- Messenger Chat Plugin Code -->
+      <div id="fb-root"></div>
+
+      <!-- Your Chat Plugin code -->
+      <div id="fb-customer-chat" class="fb-customerchat">
+      </div>
+
+      <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "1712029365710162");
+        chatbox.setAttribute("attribution", "biz_inbox");
+      </script>
+
+      <!-- Your SDK code -->
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v18.0'
+          });
+        };
+
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+                
+
+      
+
+</body>
+</html>
