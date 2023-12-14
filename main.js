@@ -8,6 +8,7 @@ const companyLogo = document.querySelector('.company-logo');
 
 const productsContainer = document.querySelector('.container-products');
 
+
 // const search = document.querySelector('.')
 
 console.log(`JS started`)
@@ -102,7 +103,7 @@ function handleKeyPress(event) {
 }
 
 // Add event listener to the input field
-searchInput.addEventListener('keypress', handleKeyPress);
+// searchInput.addEventListener('keypress', handleKeyPress);
 
 
 // Function to display products
@@ -110,7 +111,7 @@ function displayProducts(products) {
 
   productsContainer.innerHTML = '';
   
-  products.forEach(product => {
+  products.forEach((product,index) => {
     const html = `
       <div class="card card-product">
           <div>
@@ -119,7 +120,7 @@ function displayProducts(products) {
           <img class = "card-product-img"src="img/product-med.jpg" alt="" srcset="" height = "110px">
           <p class="product-information"><b>Qty / Box: </b>${product.product_information}</p>
           <span class="product-price"><strong>₱ ${product.product_price}</strong></span>
-          <a class = "product-button hidden"href="#">More details</a>
+          <a class = "product-button hidden"href="#"  data-product-id="${index+1}">More details</a>
       </div>
     `;
     productsContainer.insertAdjacentHTML('beforeend', html);
@@ -152,10 +153,10 @@ if (window.location.pathname === '/products.html') {
     .catch(error => {
       console.error('There was a problem fetching the data:', error);
     });
-
-
-
 }
+
+
+
 
 // document.querySelector('#contact-form').addEventListener('submit', (e) => {
 //   e.preventDefault();
@@ -208,3 +209,36 @@ productsContainer.addEventListener('mouseout', (e) => {
 //         btnToggle.style.background = `url('resources/close-btn.png')`
 //     }
 // })
+
+// fetch('product.json')
+//     .then(res=>res.json())
+//     .then(res => console.log(res[0].generic_name))
+// console.log('test')
+
+
+// const productCard = document.querySelector('.card');
+// console.log(productCard)
+// productCard.addEventListener('click',(e) => console.log(e.target));
+
+function displayProductsInformation(productsInformation) {
+  document.querySelector('.products-title').textContent = 'Test';
+  productsContainer.innerHTML = '';
+
+  const html = `
+  
+    
+  
+  `
+
+
+
+}
+
+
+productsContainer.addEventListener('click',(e) => {
+  e.preventDefault();
+  const btn = e.target.closest('.product-button');
+  if(!btn) return;
+  console.log(btn)
+  displayProductsInformation('test')
+})

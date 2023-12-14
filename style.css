@@ -2,7 +2,11 @@
 
 :root {
     --primary-color: #0C356A;
-    --secondary-color: #3876BF
+    --secondary-color: #3876BF;
+
+    --product-leaflet-color1: #78C1F3;
+    --product-leaflet-color2: #9BE8D8;
+    --product-leaflet-color3: #E2F6CA;
 }
 
 /* UTILITY CLASSES */
@@ -359,11 +363,12 @@ main {
 
 /* .management-team  */
 .management-team {
-    margin: 1.25rem 2.5rem;
+    /* margin: 1.25rem 2.5rem; */
     /* color: white; */
 }
 
 .headings {
+    text-align: center;
     font-size: 3.75rem;
 }
 
@@ -385,6 +390,7 @@ main {
     -webkit-box-shadow: 10px 13px 27px 5px rgba(0,0,0,0.46);
     -moz-box-shadow: 10px 13px 27px 5px rgba(0,0,0,0.46);
     margin: 1rem;
+    padding: 1rem;
 }
 .management-profile > * {
     padding: 1rem;
@@ -395,10 +401,16 @@ main {
     font-size: 2.1875rem;
 }
 
+.management-profile h3 {
+    margin: 0 auto;
+    padding: .2rem auto;
+}
+
 .management-profile h5 {
     font-size: 1.125rem;
     font-weight: 100;
     letter-spacing: .1875rem;
+    margin: 0 auto;
 
 }
 
@@ -419,10 +431,19 @@ main {
     filter: grayscale(0);
 }
 
+.management-profile h3,
+.management-profile h5,
+.management-profile p {
+    margin-top: 0; /* Reset default margin */
+    margin-bottom: 0.5rem; /* Adjust margin to ensure consistent spacing */
+}
+
 .card-product--active {
-    width: 310px;
-    height: 360px;
+    width: 290px;
+    height: 380px;
+    
     /* transition: .5s ease-in-out; */
+    /* aspect-ratio: */
     position: relative;
 }
 
@@ -454,7 +475,27 @@ main {
     transition: .5s ease-in-out;
 }
 
+.accordionProducts {
+    width: 80%;
+}
 
+.accordionProducts__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordionProducts__imageContainer {
+    max-width:min-content;
+}
+
+.accordionProducts__image {
+    max-width: revert;
+}
+
+.accordionProducts_button {
+    background-color: var(--product-leaflet-color1);
+}
 
 /* CONTACT US */
 
@@ -492,7 +533,7 @@ main {
 
 @media only screen and (max-width: 900px) {
     .headings {
-        font-size: 20px;
+        font-size: 2rem;
         text-align: center;
     }
     .headings span {
