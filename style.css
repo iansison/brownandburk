@@ -475,29 +475,31 @@ main {
     transition: .5s ease-in-out;
 }
 
-.accordionProducts {
-    width: 80%;
+.accordionProducts__btn-container {
+    border: 2px solid black;
+    /* display: flex; */
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.accordionProducts__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.accordionProducts__btn-container button{
+    margin: 0;
+    height: 1em;
+    width: 3em;
 }
 
-.accordionProducts__imageContainer {
-    max-width:min-content;
+
+.accordionProducts__contentContainer {
+    border: 3px solid green;
+    /* width: 10rem; */
 }
 
-.accordionProducts__image {
-    max-width: revert;
+.accordionProducts__content {
+    margin: 1rem;
+    border: 1px solid red;
 }
-
-.accordionProducts_button {
-    background-color: var(--product-leaflet-color1);
-}
-
-/* CONTACT US */
 
 
 

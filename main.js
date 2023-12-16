@@ -193,6 +193,8 @@ productsContainer.addEventListener('mouseout', (e) => {
 });
 
 
+const 
+
 // const productDetails = document.querySelector('.')
 
 
