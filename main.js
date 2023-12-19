@@ -8,6 +8,9 @@ const companyLogo = document.querySelector('.company-logo');
 
 const productsContainer = document.querySelector('.container-products');
 
+const section = document.querySelector('.container-search-bar');
+
+
 
 // const search = document.querySelector('.')
 
@@ -120,12 +123,15 @@ function displayProducts(products) {
           <img class = "card-product-img"src="img/product-med.jpg" alt="" srcset="" height = "110px">
           <p class="product-information"><b>Qty / Box: </b>${product.product_information}</p>
           <span class="product-price"><strong>₱ ${product.product_price}</strong></span>
-          <a class = "product-button hidden"href="#"  data-product-id="${index+1}">More details</a>
+          <a class = "product-button hidden"href="#"  data-productId="${index+1}">More details</a>
       </div>
     `;
     productsContainer.insertAdjacentHTML('beforeend', html);
   });
 }
+
+
+let clickedProduct;
 
 if (window.location.pathname === '/products.html') {
 // Fetch products from JSON and display all products initially
@@ -153,94 +159,181 @@ if (window.location.pathname === '/products.html') {
     .catch(error => {
       console.error('There was a problem fetching the data:', error);
     });
-}
+
+
+      
+  productsContainer.addEventListener('mouseover', (e) => {
+    const activeCard = e.target.closest('.card');
+    if (!activeCard) return;
+
+    const productBtn = activeCard.querySelector('.product-button');
+    activeCard.classList.add('card-product--active');
+    
+    if (productBtn) {
+      productBtn.classList.add('d-block');
+      productBtn.classList.remove('hidden');
+    }
+  });
+
+  productsContainer.addEventListener('mouseout', (e) => {
+    const activeCard = e.target.closest('.card');
+    if (!activeCard) return;
+
+    activeCard.classList.remove('card-product--active');
+
+    const productBtn = activeCard.querySelector('.product-button');
+    if (productBtn) {
+      productBtn.classList.remove('d-block');
+      productBtn.classList.add('hidden');
+    }
+  });
 
 
 
 
-// document.querySelector('#contact-form').addEventListener('submit', (e) => {
-//   e.preventDefault();
-//   e.target.elements.name.value = '';
-//   e.target.elements.email.value = '';
-//   e.target.elements.message.value = '';
-// });
+  productsContainer.addEventListener('click',(e) => {
 
-
-productsContainer.addEventListener('mouseover', (e) => {
-  const activeCard = e.target.closest('.card');
-  if (!activeCard) return;
-
-  const productBtn = activeCard.querySelector('.product-button');
-  activeCard.classList.add('card-product--active');
+    e.preventDefault();
+    document.querySelector('.overlay').classList.remove('hidden')
+    // window.scrollTo({top: 0,
+    //   left:0,
+    //   behavior: 'smooth'
+    // })
+    const btn = e.target.closest('.product-button');
+    if(!btn) return;
+    clickedProduct = 1;
+    // displayProductsInformation('test')
+    setTimeout(() => {
+      document.querySelector('.overlay').classList.add('hidden')
+      window.location.href = 'product-info.html'
+      clickedProduct = e.target.dataset.productId;
   
-  if (productBtn) {
-    productBtn.classList.add('d-block');
-    productBtn.classList.remove('hidden');
-  }
-});
-
-productsContainer.addEventListener('mouseout', (e) => {
-  const activeCard = e.target.closest('.card');
-  if (!activeCard) return;
-
-  activeCard.classList.remove('card-product--active');
-
-  const productBtn = activeCard.querySelector('.product-button');
-  if (productBtn) {
-    productBtn.classList.remove('d-block');
-    productBtn.classList.add('hidden');
-  }
-});
-
-
-const 
-
-// const productDetails = document.querySelector('.')
-
-
-// toggle.addEventListener('click',(e) => {
-//     if(e.target.classList.contains('mobile-nav-toggle')) {
-//         nav.classList.add('hidden');
-//     }
-// })
-
-
-// toggle.addEventListener('click',(e) => {
-//     if(e.target.classList.contains('mobile-nav-toggle')) {
-//         nav.classList.remove('hidden');
-//         btnToggle.style.background = `url('resources/close-btn.png')`
-//     }
-// })
-
-// fetch('product.json')
-//     .then(res=>res.json())
-//     .then(res => console.log(res[0].generic_name))
-// console.log('test')
-
-
-// const productCard = document.querySelector('.card');
-// console.log(productCard)
-// productCard.addEventListener('click',(e) => console.log(e.target));
-
-function displayProductsInformation(productsInformation) {
-  document.querySelector('.products-title').textContent = 'Test';
-  productsContainer.innerHTML = '';
-
-  const html = `
+  
+    },3000)
+  
+  
+      // .catch(error => {
+      //   console.error('There was a problem fetching the data:', error);
+      // });
+  
   
     
+  })
   
-  `
-
 
 
 }
 
+console.log('ProductID: ',clickedProduct);
 
-productsContainer.addEventListener('click',(e) => {
-  e.preventDefault();
-  const btn = e.target.closest('.product-button');
-  if(!btn) return;
-  console.log(btn)
-  displayProductsInformation('test')
+
+
+
+
+
+// function displayProductsInformation(productsInformation) {
+//   const main = document.querySelector('main.products');
+
+//   // Remove the main element
+//   main.remove();
+
+
+//   const html = `
+  
+//   <main class="accordionProducts d-block" id="accordionProducts">
+//   <h1 class="products-title">Product Name</h1>
+
+//   <div class="product-item"><a href="products.html">Products</a> &rarr; </div>
+
+//   <div class="accordionProducts__container flex">
+
+//    <div class="accordionProducts__imageContainer">
+//       <img loading="lazy" src="img/product-med.jpg" class="d-block accordionProducts__image accordionProducts__image--1 open" alt="" height="250px">
+//    </div>
+
+//    <div class="accordionProducts__btn-container flex">
+//       <button class="accordionProducts__button accordionProducts__button--1" data-btn="1" aria-expanded="true" aria-disabled="true">
+
+//          <h3 class="accordionProducts__heading">
+//             Who this medicine's for?
+//          </h3>
+//       </button>
+//       <button class="accordionProducts__button accordionProducts__button--2" data-btn="2" aria-expanded="false">
+
+//          <h3 class="accordionProducts__heading">
+//             What it's composed of?
+//          </h3>
+//       </button>
+//       <button class="accordionProducts__button accordionProducts__button--3" data-btn="3" aria-expanded="false">
+
+//          <h3 class="accordionProducts__heading">
+//             Product Inserts
+//          </h3>
+//       </button>
+//    </div>
+
+
+
+//    <div class="accordionProducts__contentContainer">
+//       <div class="accordionProducts__content accordionProducts__content--1 hidden">
+//             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut minima at cum exercitationem harum sint modi dolor maxime autem earum unde, nemo sit laborum totam.</p>
+//       </div>    
+//       <div class="accordionProducts__content accordionProducts__content--2 hidden">
+//             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet soluta error reiciendis eligendi aut, dolorem laborum alias quo modi temporibus eos placeat cum rem velit?</p>
+//       </div>    
+//       <div class="accordionProducts__content accordionProducts__content--3 hidden">
+//             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cum eaque id atque in repudiandae aliquam exercitationem blanditiis. Quo deleniti, voluptate officia animi ea commodi.</p>
+//       </div>                     
+//    </div>
+// </div>
+// </main>  
+  
+//   `
+
+//   section.insertAdjacentHTML('afterend', html);
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// setTimeout(() => {
+
+
+const accordionProductButtons = document.querySelectorAll('.accordionProducts__button');
+const accordionProductContents = document.querySelectorAll('.accordionProducts__content');
+const accordionContainer = document.querySelector('.accordionProducts__btn-container');
+const mainProduct = document.getElementById('accordionProducts');
+  
+  
+  
+  
+  
+accordionContainer.addEventListener('click', (e) => {
+  const clicked = e.target.closest('.accordionProducts__button');
+  mainProduct.scrollIntoView({behavior: 'smooth'})
+  if(!clicked) return;
+
+  
+
+  accordionProductButtons.forEach(el => {
+    el.classList.remove('accordionButton--active')
+  })
+  clicked.classList.add('accordionButton--active')
+  accordionProductContents.forEach(el => el.classList.add('hidden'))
+  document.querySelector(`.accordionProducts__content--${clicked.dataset.btn}`).classList.remove('hidden')
+
 })
+
+
+
+// },2000)
+
