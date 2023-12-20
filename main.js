@@ -123,7 +123,7 @@ function displayProducts(products) {
           <img class = "card-product-img"src="img/product-med.jpg" alt="" srcset="" height = "110px">
           <p class="product-information"><b>Qty / Box: </b>${product.product_information}</p>
           <span class="product-price"><strong>₱ ${product.product_price}</strong></span>
-          <a class = "product-button hidden"href="#"  data-productId="${index+1}">More details</a>
+          <a class = "product-button hidden"href="#"  data-id="${index+1}">More details</a>
       </div>
     `;
     productsContainer.insertAdjacentHTML('beforeend', html);
@@ -131,10 +131,12 @@ function displayProducts(products) {
 }
 
 
+let originalProducts = []; // Store the original unfiltered products
 let clickedProduct;
 
 if (window.location.pathname === '/products.html') {
 // Fetch products from JSON and display all products initially
+
   fetch('product.json')
     .then(response => {
       if (!response.ok) {
@@ -143,15 +145,18 @@ if (window.location.pathname === '/products.html') {
       return response.json();
     })
     .then(data => {
+      originalProducts = data; // Save the original products
       displayProducts(data); // Display all products initially
       const searchInput = document.getElementById('search');
       
       // Event listener for search input
       searchInput.addEventListener('input', () => {
         const searchTerm = searchInput.value.trim().toLowerCase();
-        const filteredProducts = data.filter(product => {
-          return product.product.toLowerCase().includes(searchTerm) ||
-          product.generic_name.toLowerCase().includes(searchTerm);
+        const filteredProducts = originalProducts.filter(product => {
+          return (
+            product.product.toLowerCase().includes(searchTerm) ||
+            product.generic_name.toLowerCase().includes(searchTerm)
+          );
         });
         displayProducts(filteredProducts); // Display filtered products
       });
@@ -200,13 +205,16 @@ if (window.location.pathname === '/products.html') {
     //   behavior: 'smooth'
     // })
     const btn = e.target.closest('.product-button');
+    clickedProduct = e.target.dataset.id;
+    console.log(clickedProduct)
     if(!btn) return;
-    clickedProduct = 1;
     // displayProductsInformation('test')
     setTimeout(() => {
       document.querySelector('.overlay').classList.add('hidden')
-      window.location.href = 'product-info.html'
-      clickedProduct = e.target.dataset.productId;
+      // window.location.href = 'product-info.html'
+      // When navigating to another page
+      window.location.href = `product-info.html?productID=${clickedProduct}`;
+
   
   
     },3000)
@@ -224,11 +232,19 @@ if (window.location.pathname === '/products.html') {
 
 }
 
-console.log('ProductID: ',clickedProduct);
 
 
 
+if (window.location.pathname === '/product-info.html') {
+  // Get the URL parameters
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
 
+  // Get the value of 'productID' from the URL
+  const productID = urlParams.get('productID');
+  //console.log(productID); // This will log the value of 'productID'
+
+}
 
 
 // function displayProductsInformation(productsInformation) {
