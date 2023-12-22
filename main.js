@@ -109,6 +109,7 @@ function handleKeyPress(event) {
 // searchInput.addEventListener('keypress', handleKeyPress);
 
 
+
 // Function to display products
 function displayProducts(products) {
 
@@ -123,7 +124,7 @@ function displayProducts(products) {
           <img class = "card-product-img"src="img/product-med.jpg" alt="" srcset="" height = "110px">
           <p class="product-information"><b>Qty / Box: </b>${product.product_information}</p>
           <span class="product-price"><strong>₱ ${product.product_price}</strong></span>
-          <a class = "product-button hidden"href="#"  data-id="${index+1}">More details</a>
+          <a class = "product-button hidden"href="#"  data-id="${product.id}">More details</a>
       </div>
     `;
     productsContainer.insertAdjacentHTML('beforeend', html);
@@ -136,6 +137,15 @@ let clickedProduct;
 
 if (window.location.pathname === '/products.html') {
 // Fetch products from JSON and display all products initially
+
+// Get the current URL
+const currentURL = window.location.href;
+
+// Create a URL object to parse the URL
+const url = new URL(currentURL);
+
+// Get the value of the 'productID' parameter from the URL
+const searched = url.searchParams.get('search');
 
   fetch('product.json')
     .then(response => {
@@ -151,6 +161,7 @@ if (window.location.pathname === '/products.html') {
       
       // Event listener for search input
       searchInput.addEventListener('input', () => {
+        
         const searchTerm = searchInput.value.trim().toLowerCase();
         const filteredProducts = originalProducts.filter(product => {
           return (
@@ -158,6 +169,7 @@ if (window.location.pathname === '/products.html') {
             product.generic_name.toLowerCase().includes(searchTerm)
           );
         });
+        console.log(filteredProducts)
         displayProducts(filteredProducts); // Display filtered products
       });
     })
@@ -195,11 +207,11 @@ if (window.location.pathname === '/products.html') {
 
 
 
+  // const productsContainer = document.querySelector('.container-products');
 
   productsContainer.addEventListener('click',(e) => {
 
     e.preventDefault();
-    document.querySelector('.overlay').classList.remove('hidden')
     // window.scrollTo({top: 0,
     //   left:0,
     //   behavior: 'smooth'
@@ -208,6 +220,7 @@ if (window.location.pathname === '/products.html') {
     clickedProduct = e.target.dataset.id;
     console.log(clickedProduct)
     if(!btn) return;
+    document.querySelector('.overlay').classList.remove('hidden')
     // displayProductsInformation('test')
     setTimeout(() => {
       document.querySelector('.overlay').classList.add('hidden')

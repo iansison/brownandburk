@@ -23,6 +23,7 @@ fetch('product.json')
     .then(data => {
         data.forEach(element => {
             if(element.id === +productID) {
+                productName.style.fontSize = '2rem';
                 productName.innerHTML=`<b>${element.product}</b>`
             }
         });
