@@ -147,7 +147,7 @@ const url = new URL(currentURL);
 // Get the value of the 'productID' parameter from the URL
 const searched = url.searchParams.get('search');
 
-  fetch('product.json')
+  fetch('./product.json')
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
