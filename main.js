@@ -115,6 +115,8 @@ function displayProducts(products) {
 
   productsContainer.innerHTML = '';
   
+  // <span class="product-price"><strong>₱ ${product.product_price}</strong></span> 
+  // ^ IKAKABIT TO SA html
   products.forEach((product,index) => {
     const html = `
       <div class="card card-product">
@@ -123,7 +125,6 @@ function displayProducts(products) {
           <h5>${product.generic_name}</h5>
           <img class = "card-product-img"src="img/product-med.jpg" alt="" srcset="" height = "110px">
           <p class="product-information"><b>Qty / Box: </b>${product.product_information}</p>
-          <span class="product-price"><strong>₱ ${product.product_price}</strong></span>
           <a class = "product-button hidden"href="#"  data-id="${product.id}">More details</a>
       </div>
     `;
@@ -362,7 +363,4 @@ accordionContainer.addEventListener('click', (e) => {
 
 })
 
-
-
-// },2000)
 
