@@ -50,7 +50,7 @@ header {
     /* border: 1px solid red;
     height: 100vh; */
 }
-
+#
 
 ul, li {
     list-style: none;
@@ -371,6 +371,9 @@ main {
     color: black;
     display: block;
     margin-right: 5px;
+}
+.product-information {
+  color: black;
 }
 .product-name {
     margin-left: 5px;
@@ -1542,3 +1545,150 @@ footer {
     text-align: center;
     padding: 30px;
 }
+
+
+.visit-microlabs-btn {
+  margin-top: 5rem;
+  background-color: #0c4c91;
+  color: white;
+  width: 180px;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  font-size: 14pt;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.visit-microlabs-btn:hover {
+  text-decoration: none;
+  border: 1px solid black;
+  background: #fff;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  transform: translateY(10px);
+}
+
+
+.section-holder {
+  /* position: relative; */
+  /* border: 1px solid red; */
+  margin-top: 10rem;
+  /* height: 100vh */
+}
+
+#mission {
+  background-image: url("https://i.ibb.co/4MMqsyr/uploader.png");
+ height: 50%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+#missiontext {
+ padding: 2vw;
+ width: 300px;
+ text-align: left;
+ position: absolute;
+ top: 10%;
+ left: 70%;
+ transform: translate(-50%, -50%);
+ color: black;
+ background-color: var(--secondary-color);
+ 
+}
+#missiontext button {
+  padding: 1em 2em;
+  background-color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+  transition: .3s ease-in
+}
+#missiontext button:hover {
+  background-color: white;
+}
+.careers-btn {
+  padding: 1em 2em;
+  background-color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+}
+.about-us-btn {
+  padding: 1em 2em;
+  background-color: rgb(213, 213, 213);
+  border: none;
+  cursor: pointer;
+}
+#jointheteam {
+ margin: 0 50px;
+}
+
+#membertraits {
+ padding: 50px 0;
+}
+#membertraits img {
+   display: inline-block;
+   vertical-align: top;
+   width: 46%;
+   margin: 0 30px 0 0;
+ }
+
+#membertext {
+   display: inline-block;
+   width: 46%;
+
+   }
+
+
+
+#traits a {
+ display: block;
+ color: black;
+ padding: 14px;
+ margin: 0 0 15px 0;
+ text-align: center;
+ text-decoration: none;
+ font-size: 17px;
+ font-weight: 900;
+ border-radius: 20px;
+ background-color: #e0e0e0;
+ cursor: default;
+}
+
+#traits a:hover {
+ background-color: #c3c3c3;
+ color: black;
+}
+
+#traits a:focus {     
+   background-color: black;    
+}
+
+
+#whatareyoudoing {
+ margin: 0 50px;
+ padding: 5vw;
+ color: white;
+ background-color: royalblue;
+ margin: 5rem 3rem;
+}
+
+
+#hereatfuse {
+ margin: 0 50px;
+}
+#endbuttons {
+ display: flex;
+ justify-content: center;
+ padding: 20px;
+}
+
+
+#jointheteam > h2 {
+  font-size: 3rem;
+}
+
+#traits> *:not(p) {
+  
+  cursor: pointer;
+ }
+
+ 

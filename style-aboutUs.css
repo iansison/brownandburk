@@ -536,14 +536,17 @@
       height: auto;
       border-radius: 10px;
       color: #fff;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
   }
+  .back {
+    color: white;  
+    /* background: url('https://cdn.pixabay.com/photo/2018/03/31/01/33/paper-3277155_1280.png'); */
+    background-color: var(--secondary-color);
+    border: .75rem solid rgb(32, 131, 243)
   
-  .back{
-    background: #cedce7;
-    background: -webkit-linear-gradient(45deg,  #62cff4 0%,#2c67f2 100%);
-    background: -o-linear-gradient(45deg,   #62cff4 0%,#2c67f2 100%);
-    background: linear-gradient(45deg,   #62cff4 0%,#2c67f2 100%);
+  }
+  .back:after{
+    background-color: rgba(0,0,0, 0.9);
   }
   
   .front:after{
@@ -650,11 +653,18 @@
     .col-card{
       width: calc(33.333333% - 2rem);
     }
+    .back {
+      font-size: 1.0rem;
+      font-weight: 700;
+    }
   }
   
   @media screen and (max-width: 48rem){
     .col-card{
       width: calc(50% - 2rem);
+    }
+    .back {
+      font-size: 1rem;
     }
   }
   
@@ -662,5 +672,8 @@
     .col-card{
       width: 100%;
       margin: 0 0 2rem 0;
+    }
+    .back {
+      font-size: .9rem;
     }
   }

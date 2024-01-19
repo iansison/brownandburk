@@ -329,7 +329,19 @@ if (window.location.pathname === '/product-info.html') {
 
 
 
+const traits = document.querySelector('#traits');
+const allAnswers = document.querySelectorAll('.traits-ans');
+allAnswers.forEach(el => el.style.display = 'none')
 
+traits.addEventListener('click', (e) => {
+  if(e.target.classList.contains('traits-btn')) {
+    const traitBtn = e.target;
+    if(!traitBtn) return;
+    document.querySelector(`.traits-ans--${traitBtn.dataset.trait}`).classList.toggle('d-block');
+    document.querySelector(`.traits-ans--${traitBtn.dataset.trait}`).style.transition = 'ease-in .3s'
+
+  }
+})
 
 
 
@@ -362,5 +374,4 @@ accordionContainer.addEventListener('click', (e) => {
   document.querySelector(`.accordionProducts__content--${clicked.dataset.btn}`).classList.remove('hidden')
 
 })
-
 
