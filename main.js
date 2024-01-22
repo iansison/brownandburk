@@ -277,7 +277,7 @@ if (window.location.pathname === '/product-info.html') {
 
 }
 
-
+  
 // function displayProductsInformation(productsInformation) {
 //   const main = document.querySelector('main.products');
 

@@ -5,9 +5,12 @@ const currentURL = window.location.href;
 const url = new URL(currentURL);
 
 // Get the value of the 'productID' parameter from the URL
-const productID = url.searchParams.get('productID');
+const productIDParam = url.searchParams.get('productID');
 
-console.log(productID); // Output: 3
+// Ensure that productIDParam is a valid number
+const productID = parseInt(productIDParam, 10);
+
+console.log(productID); // Output: 3 (or the correct productID)
 
 
 const productName = document.querySelector('.product-name')
@@ -20,11 +23,14 @@ fetch('product.json')
     }
     return response.json();
     })
-    .then(data => {
-        data.forEach(element => {
-            if(element.id === +productID) {
-                productName.style.fontSize = '2rem';
-                productName.innerHTML=`<b>${element.product}</b>`
-            }
-        });
-    })
+.then(data => {
+    const foundProduct = data.find(({ id }) => id === +productID);
+
+    if (foundProduct) {
+        productName.style.fontSize = '2rem';
+        productName.innerHTML = `<b>${foundProduct.product}</b>`;
+    } else {
+        console.error(`Product with ID ${productID} not found`);
+        // Handle this case (e.g., display an error message or redirect)
+    }
+}); 
