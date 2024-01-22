@@ -9,8 +9,9 @@
     <script src="main.js" defer></script>
     <link rel="stylesheet" href="./newstyle.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./style.css">
+  
     <link rel="stylesheet" href="./style-aboutUs.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -56,12 +57,18 @@
                 </svg></button>
         </form>
     </section>
-    <main class="products d-block">
-        <h1 class="products-title">Products</h1>
-        <div class="container-products flex">
-
-
+    <main class="products">
+      <div class="product-card"><a class="product-card__image" href="https://aharito.ru" target="_blank"><img src="https://images.unsplash.com/photo-1608667508764-33cf0726b13a?crop=edges&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;w=600&amp;h=450&amp;q=80" alt="Product List Card UI"/></a>
+        <div class="product-card__body"><a class="product-card__title" href="https://aharito.ru">Jhang Air Max sneakers</a>
+          <div class="product-card__desc">In this product card, the link goes on top of all the content except the button. It overlaps even this text. But if the text and other elements are assigned position: relative, then such elements will be on the top of the link.</div>
+          <div class="product-card__stock">In stock</div>
+          <div class="product-card__price price"><span class="price__current">6452р</span><span class="price__old">8054р</span></div>
+          <div class="product-card__labels"><span class="label label_hit">Хит</span><span class="label label_sale">Скидка -25%</span></div>
         </div>
+        <div class="product-card__btn">
+          <button class="btn btn_product" type="button">Add to your cart</button>
+        </div>
+      </div>
     </main>
 
     <div class="overlay hidden">

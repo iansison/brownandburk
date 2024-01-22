@@ -12,11 +12,22 @@
 <!-- Link Bootstrap JavaScript from the CDN -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="contactus.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+crossorigin=""/>
+ <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>  
+<link rel="stylesheet" href="contactus.css">
     <link rel="stylesheet" href="style.css">
     <style>
       ul {
         list-style: none;
+      }
+      #map { height: 300px; }
+      .leaflet-popup-content {
+        font-size: 1.25rem;
       }
     </style>
 </head>
@@ -95,6 +106,8 @@
                 <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">contact@brown-burk.com</a></span></i></li>
                 
               </ul>
+
+              <div id="map"></div>
       
               <hr>
               <ul class="social-media-list">

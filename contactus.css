@@ -209,6 +209,13 @@ body {
       height: 60px;
       line-height: 60px;
     }
+    #map {height: 400px; width: 400px; 
+      position: relative;
+      left: -5.90rem
+    }
+    .leaflet-popup-content {
+      font-size: 1.5rem;
+    }
   }
   
   @media screen and (max-width: 569px) {

@@ -6,7 +6,7 @@ const nav = document.querySelector('.primary-navigation');
 
 const companyLogo = document.querySelector('.company-logo');
 
-const productsContainer = document.querySelector('.container-products');
+const productsContainer = document.querySelector('.products');
 
 const section = document.querySelector('.container-search-bar');
 
@@ -119,6 +119,7 @@ function displayProducts(products) {
   // ^ IKAKABIT TO SA html
   products.forEach((product,index) => {
     const html = `
+    <!--
       <div class="card card-product">
           <div>
           <h3>${product.product}</h3> </div>
@@ -127,6 +128,22 @@ function displayProducts(products) {
           <p class="product-information"><b>Qty / Box: </b>${product.product_information}</p>
           <a class = "product-button hidden"href="#"  data-id="${product.id}">More details</a>
       </div>
+    -->
+
+      <div class="product-card"><a class="product-card__image" href="https://aharito.ru" target="_blank"><img src="img/product-med.jpg" alt="Product List Card UI"/></a>
+        <div class="product-card__body"><a class="product-card__title" href="https://aharito.ru">${product.product}</a>
+          <div class="product-card__desc">${product.generic_name}</div>
+          <div class="product-card__stock">In stock</div>
+          <div class="product-card__price price"><span class="price__current">Php ${product.product_price}.00</span><!--<span class="price__old">8054р</span>--></div>
+          <div class="product-card__labels">Qty / Box:<span class="label label_hit">${product.product_information}</span></div>
+        </div>
+        <div class="product-card__btn">
+          <button class="btn btn_product" data-id="${product.id} type="button">More details</button>
+        </div>
+      </div>
+
+    
+
     `;
     productsContainer.insertAdjacentHTML('beforeend', html);
   });
@@ -180,31 +197,31 @@ const searched = url.searchParams.get('search');
 
 
       
-  productsContainer.addEventListener('mouseover', (e) => {
-    const activeCard = e.target.closest('.card');
-    if (!activeCard) return;
+  // productsContainer.addEventListener('mouseover', (e) => {
+  //   const activeCard = e.target.closest('.card');
+  //   if (!activeCard) return;
 
-    const productBtn = activeCard.querySelector('.product-button');
-    activeCard.classList.add('card-product--active');
+  //   const productBtn = activeCard.querySelector('.product-button');
+  //   activeCard.classList.add('card-product--active');
     
-    if (productBtn) {
-      productBtn.classList.add('d-block');
-      productBtn.classList.remove('hidden');
-    }
-  });
+  //   if (productBtn) {
+  //     productBtn.classList.add('d-block');
+  //     productBtn.classList.remove('hidden');
+  //   }
+  // });
 
-  productsContainer.addEventListener('mouseout', (e) => {
-    const activeCard = e.target.closest('.card');
-    if (!activeCard) return;
+  // productsContainer.addEventListener('mouseout', (e) => {
+  //   const activeCard = e.target.closest('.card');
+  //   if (!activeCard) return;
 
-    activeCard.classList.remove('card-product--active');
+  //   activeCard.classList.remove('card-product--active');
 
-    const productBtn = activeCard.querySelector('.product-button');
-    if (productBtn) {
-      productBtn.classList.remove('d-block');
-      productBtn.classList.add('hidden');
-    }
-  });
+  //   const productBtn = activeCard.querySelector('.product-button');
+  //   if (productBtn) {
+  //     productBtn.classList.remove('d-block');
+  //     productBtn.classList.add('hidden');
+  //   }
+  // });
 
 
 
@@ -217,7 +234,7 @@ const searched = url.searchParams.get('search');
     //   left:0,
     //   behavior: 'smooth'
     // })
-    const btn = e.target.closest('.product-button');
+    const btn = e.target.closest('.btn_product');
     clickedProduct = e.target.dataset.id;
     console.log(clickedProduct)
     if(!btn) return;
@@ -329,49 +346,73 @@ if (window.location.pathname === '/product-info.html') {
 
 
 
-const traits = document.querySelector('#traits');
-const allAnswers = document.querySelectorAll('.traits-ans');
-allAnswers.forEach(el => el.style.display = 'none')
-
-traits.addEventListener('click', (e) => {
-  if(e.target.classList.contains('traits-btn')) {
-    const traitBtn = e.target;
-    if(!traitBtn) return;
-    document.querySelector(`.traits-ans--${traitBtn.dataset.trait}`).classList.toggle('d-block');
-    document.querySelector(`.traits-ans--${traitBtn.dataset.trait}`).style.transition = 'ease-in .3s'
-
-  }
-})
 
 
 
+if (window.location.pathname === '/careers.html') {
+  const traits = document.querySelector('#traits');
+  const allAnswers = document.querySelectorAll('.traits-ans');
+  allAnswers.forEach(el => el.style.display = 'none')
+  
+  traits.addEventListener('click', (e) => {
+    if(e.target.classList.contains('traits-btn')) {
+      const traitBtn = e.target;
+      if(!traitBtn) return;
+      document.querySelector(`.traits-ans--${traitBtn.dataset.trait}`).classList.toggle('d-block');
+  
+    }
+  })
+  
+}
 
 
 // setTimeout(() => {
 
 
-const accordionProductButtons = document.querySelectorAll('.accordionProducts__button');
-const accordionProductContents = document.querySelectorAll('.accordionProducts__content');
-const accordionContainer = document.querySelector('.accordionProducts__btn-container');
-const mainProduct = document.getElementById('accordionProducts');
-  
-  
-  
-  
-  
-accordionContainer.addEventListener('click', (e) => {
-  const clicked = e.target.closest('.accordionProducts__button');
-  mainProduct.scrollIntoView({behavior: 'smooth'})
-  if(!clicked) return;
 
-  
+if (window.location.pathname === '/product-info.html') {
 
-  accordionProductButtons.forEach(el => {
-    el.classList.remove('accordionButton--active')
+  const accordionProductButtons = document.querySelectorAll('.accordionProducts__button');
+  const accordionProductContents = document.querySelectorAll('.accordionProducts__content');
+  const accordionContainer = document.querySelector('.accordionProducts__btn-container');
+  const mainProduct = document.getElementById('accordionProducts');
+    
+  
+  
+  accordionContainer.addEventListener('click', (e) => {
+    const clicked = e.target.closest('.accordionProducts__button');
+    mainProduct.scrollIntoView({behavior: 'smooth'})
+    if(!clicked) return;
+  
+    
+  
+    accordionProductButtons.forEach(el => {
+      el.classList.remove('accordionButton--active')
+    })
+    clicked.classList.add('accordionButton--active')
+    accordionProductContents.forEach(el => el.classList.add('hidden'))
+    document.querySelector(`.accordionProducts__content--${clicked.dataset.btn}`).classList.remove('hidden')
+  
   })
-  clicked.classList.add('accordionButton--active')
-  accordionProductContents.forEach(el => el.classList.add('hidden'))
-  document.querySelector(`.accordionProducts__content--${clicked.dataset.btn}`).classList.remove('hidden')
 
-})
+}
+  
 
+
+
+if (window.location.pathname === '/contactus.html') {
+  // Get the URL parameters
+  const location = [14.554754, 121.0152508]
+  const map = L.map('map').setView(location, 18);
+
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+
+  
+  L.marker(location).addTo(map)
+      .bindPopup(`We are located here <br> <strong>@120 Rada St</strong>.`)
+      .openPopup();
+
+}
