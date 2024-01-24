@@ -7,56 +7,64 @@
     <title>Brown & Burk PH</title>
     <link rel="shortcut icon" href="img/fav-121x70 - Copy.png" type="image/x-icon">
     <script src="main.js" defer></script>
-    <script src="product.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+    <script src="product.js" defer></script>   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  
+    <link rel="stylesheet" href="./newstyle.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./product-info.css">
+
+
 </head>
 
 <body>
-    <header class="primary-header flex">
-        <div class="company-logo flex">
-            <img src="img/fav-121x70 - Copy.png" alt="" class="bb-logo">
-            <span>Brown & Burk Philippines, Inc.</span>
-        </div>
-        <!-- <form action="" class="search-bar">
-                <input type="text" name="" id="" placeholder="Search for products">
-                <button><img src="" alt="">Search</button>
-            </form> -->
+    <body>
+        <header class="primary-header flex">
+            <div class="company-logo flex">
+                <img src="img/fav-121x70 - Copy.png" alt="" class="bb-logo">
+                <span>Brown & Burk Philippines, Inc.</span>
+            </div>
+            <!-- <form action="" class="search-bar">
+                    <input type="text" name="" id="" placeholder="Search for products">
+                    <button><img src="" alt="">Search</button>
+                </form> -->
+    
+            <!-- </div> -->
+            <div class="flex btn-nav">
+                <button aria-controls="primary-navigation" aria-expanded="false" class="mobile-nav-toggle">
+                    <span class="sr-only">Menu</span>
+                </button>
+            </div>
+    
+            <nav>
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                    <li class="nav-link" data-link = "index"><a href="index.html">Home</a></li>
+                    <li class="nav-link" data-link="AboutUs"><a href="#">About Us</a></li>
+                    <li class="nav-link" data-link="supplier"><a href="#">Supplier</a></li>
+                    <li class="active nav-link" data-link="products"><a href="#">Products</a></li>
+                    <li class="nav-link" data-link="careers"><a href="#">Careers</a></li>
+                    <li class="nav-link" data-link="contactus"><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <!-- </div> -->
-        <div class="flex btn-nav">
-            <button aria-controls="primary-navigation" aria-expanded="false" class="mobile-nav-toggle">
-                <span class="sr-only">Menu</span>
-            </button>
-        </div>
-
-        <nav>
-            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
-                <li class="nav-link"><a href="index.html">Home</a></li>
-                <li class="nav-link" data-link="AboutUs"><a href="#">About Us</a></li>
-                <li class="nav-link" data-link="Microlabs"><a href="#">Microlabs</a></li>
-                <li class="active nav-link" data-link="products"><a href="#">Products</a></li>
-                <li class="nav-link" data-link="management"><a href="#">Management Team</a></li>
-                <li class="nav-link" data-link="contactus"><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
 
 
 
-
-    <section class="container-search-bar">
+    <!-- <section class="container-search-bar">
         <form action="" class="search-bar" id="search-bar">
             <input type="text" name="search" id="search" class="search" placeholder="Search for a product">
             <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
-                    <path
+                    Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                    <!-- <path
                         d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
                 </svg></button>
         </form>
-    </section>
-    <main class="accordionProducts d-block" id="accordionProducts">
+    </section>  -->
+    <!-- <main class="accordionProducts d-block" id="accordionProducts"> -->
     
-
+<!-- 
     
       <div class="product-item"><a href="products.html">Products </a> <div class="product-item2">&nbsp; &rarr; <span class="product-name"> </span></div></div>
     
@@ -100,8 +108,252 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cum eaque id atque in repudiandae aliquam exercitationem blanditiis. Quo deleniti, voluptate officia animi ea commodi.</p>
           </div>                     
        </div>
+    </div> -->
+
+<main>
+    
+        <div class = "card-wrapper">
+            <div class = "card">
+              <!-- card left -->
+              <div class = "product-imgs">
+                <div class = "img-display">
+                  <div class = "img-showcase">
+                    <img src = "img/product-med.jpg" alt = "med">
+                    <img src = "img/product-med.jpg" alt = "med">
+                    <img src = "img/product-med.jpg" alt = "med">
+                    <img src = "img/product-med.jpg" alt = "med">
+                  </div>
+                </div>
+                <div class = "img-select">
+                  <div class = "img-item">
+                    <a href = "#" data-id = "1">
+                      <img src = "img/product-med.jpg" alt = "med">
+                    </a>
+                  </div>
+                  <div class = "img-item">
+                    <a href = "#" data-id = "2">
+                      <img src = "img/product-med.jpg" alt = "med">
+                    </a>
+                  </div>
+                  <div class = "img-item">
+                    <a href = "#" data-id = "3">
+                      <img src = "img/product-med.jpg" alt = "med">
+                    </a>
+                  </div>
+                  <div class = "img-item">
+                    <a href = "#" data-id = "4">
+                      <img src = "img/product-med.jpg" alt = "med">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- card right -->
+              <div class = "product-content">
+                <h2 class = "product-title">${PRODUCT NAME}</h2>
+                <a href = "#" class = "product-link">GENERIC NAME</a>
+                <div class = "product-rating">
+                  <i class = "fas fa-star"></i>
+                  <i class = "fas fa-star"></i>
+                  <i class = "fas fa-star"></i>
+                  <i class = "fas fa-star"></i>
+                  <i class = "fas fa-star"></i>
+                  <span>5(21)</span>
+                </div>
+                <div class = "product-quantity">
+                  <p class = "box">Quantity per Box: <span><bold>${VALUE}</bold></span></p>
+                </div>
+                <div class = "product-price">
+                    <h2>Php ${VALUE}.00</h2>
+                </div>
+    
+                <div class = "product-detail">
+                  <h2>about this medicine: </h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga tenetur placeat sapiente architecto illum soluta consequuntur, aspernatur quidem at sequi ipsa!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde.</p>
+                  <ul>
+                    <li>Uses: <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem exercitationem facere, quibusdam fugiat adipisci.</span></li>
+                    <li>For who: <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem exercitationem facere, quibusdam fugiat adipisci.</span></li>
+                    <li>Benefits: <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem exercitationem facere, quibusdam fugiat adipisci.</span></li>
+                    <li>Other: <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem exercitationem facere, quibusdam fugiat adipisci.</span></li>
+                    <li>Another Other: <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem exercitationem facere, quibusdam fugiat adipisci.</span></li>
+                  </ul>
+                </div>
+    
+                <!-- <div class = "purchase-info">
+                  <input type = "number" min = "0" value = "1">
+                  <button type = "button" class = "btn">
+                    Add to Cart <i class = "fas fa-shopping-cart"></i>
+                  </button>
+                  <button type = "button" class = "btn">Compare</button>
+                </div> -->
+    
+                <div class = "social-links">
+                  <p>Inquire at: </p>
+                  <a href = "#">
+                    <i class = "fa fa-envelope"></i>
+                  </a>
+                  <a href = "#">
+                    <i class = "fab fa-facebook-f"></i>
+                  </a>
+                  <a href = "#">
+                    <i class = "fab fa-twitter"></i>
+                  </a>
+                  <a href = "#">
+                    <i class = "fab fa-instagram"></i>
+                  </a>
+                  <a href = "#">
+                    <i class = "fab fa-whatsapp"></i>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+</main>
+
+
+
+<footer class="footer--light">
+  <div class="footer-big">
+    <!-- start .container -->
+    <div class="container-footer">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="footer-widget">
+            <div class="widget-about">
+              <p>Contacts</p>
+              <ul class="contact-details">
+                <li>
+                  </i> Call Us:
+                  <a href="#">(02) 8892 7757</a>
+                </li>
+                <li>
+                   Email Us:
+                  <a href="#">contact@brown-burk.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Ends: .footer-widget -->
+          <!-- Responsive Html Code created by : Shift Code Design -->
+        </div>
+        <!-- end /.col-lg-4 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class="footer-widget">
+            <div class="footer-menu">
+              <h4 class="footer-widget-title">Popular Products</h4>
+              <ul>
+                <li>
+                  <a href="#">Nebilong</a>
+                </li>
+                <li>
+                  <a href="#">We Belong</a>
+                </li>
+                <li>
+                  <a href="#">Go Along</a>
+                </li>
+                <li>
+                  <a href="#">Talong</a>
+                </li>
+                <li>
+                  <a href="#">Barong</a>
+                </li>
+              </ul>
+            </div>
+            <!-- end /.footer-menu -->
+          </div>
+          <!-- Ends: .footer-widget -->
+          <!-- Responsive Html Code created by : Shift Code Design -->
+        </div>
+        <!-- end /.col-lg-3 -->
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="footer-widget">
+            <div class="footer-menu">
+              <h4 class="footer-widget-title">Our Company</h4>
+              <ul>                        
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+              
+                <li>
+                  <a href="#">Mission</a>
+                </li>
+                <li>
+                  <a href="#">Vision</a>
+                </li>
+                <li>
+                  <a href="#">Company Mantra</a>
+                </li>      
+                <li>
+                  <a href="#">Goals</a>
+                </li>
+
+              </ul>
+            </div>
+            <!-- end /.footer-menu -->
+          </div>
+          <!-- Ends: .footer-widget -->
+        </div>
+        <!-- end /.col-lg-3 -->
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="footer-widget">
+            <div class="footer-menu p-0">
+              <h4 class="footer-widget-title">Help Support</h4>
+              <ul>
+                <li>
+                  <a href="#">Support Forum</a>
+                </li>
+                <li>
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href="#">Support Policy</a>
+                </li>
+                <li>
+                  <a href="#">FAQs</a>
+                </li>
+              </ul>
+            </div>
+            <!-- end /.footer-menu -->
+          </div>
+          <!-- Ends: .footer-widget -->
+        </div>
+        <!-- Ends: .col-lg-3 -->
+
+      </div>
+      <!-- end /.row -->
     </div>
-    </main>  
+    <!-- end /.container -->
+  </div>
+  <!-- end /.footer-big -->
+  <!-- Responsive Html Code created by : Shift Code Design -->
+
+  <div class="mini-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright-text">
+            <p>© 2024
+              <a href="#">Brown & Burk Philippines</a>. All rights reserved. Created by
+              <a href="#">Adriane Sison</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+    <!-- </main>   -->
 
 </body>
 

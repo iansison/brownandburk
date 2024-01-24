@@ -358,8 +358,9 @@
 }
 
 .section_subtitle {
-    margin-top: 2rem;
-    color: black;
+    margin-top: .5rem;
+    color: black !important;
+    line-height: 1;
 }
 .col-lg-12 {
     padding: 7rem 0;

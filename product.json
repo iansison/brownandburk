@@ -1,1 +1,802 @@
-[{"id":1,"product":"PRULIBACT","generic_name":"Prulifloxacin 600 mg Tablet","product_information":"5's","category":"VATABLE","product_price":1000},{"product":"PRULIBACT","generic_name":"Prulifloxacin 600 mg Tablet","product_information":"30's","category":"VATABLE","product_price":6000,"id":2},{"product":"KEFEZY","generic_name":"Cefuroxime 500 mg Tablet","product_information":"12's","category":"VATABLE","product_price":720,"id":3},{"product":"LEVOBACT 500mg","generic_name":"Levofloxacin 500 mg Tablet","product_information":"50's","category":"VATABLE","product_price":3000,"id":4},{"product":"LEVOBACT 750mg","generic_name":"Levofloxacin 750 mg Tablet","product_information":"50's","category":"VATABLE","product_price":4500,"id":5},{"product":"AZILIDE-DT","generic_name":"Azithromycin Dihydrate 100 mg Tablet","product_information":"15's","category":"VATABLE","product_price":600,"id":6},{"product":"AZILIDE 500","generic_name":" Azithromycin 500 mg Tablet","product_information":"3's","category":"VATABLE","product_price":330,"id":7},{"product":"CLARIWIN DT","generic_name":"Clarithromycin 125mg Dispersable Tablet","product_information":"30's","category":"VATABLE","product_price":660,"id":8},{"product":"ORNILOX","generic_name":"Ornidazole 500mg + Ofloxacin 200mg Tablet","product_information":"30's","category":"VATABLE","product_price":1500,"id":9},{"product":"FUNGICON","generic_name":"Fluconazole 150mg","product_information":"25's","category":"VATABLE","product_price":3125,"id":10},{"product":"OSTONEE","generic_name":"Diacerein 50mg Capsule","product_information":"10's","category":"VATABLE","product_price":400,"id":11},{"product":"DOLOWIN ","generic_name":"Aceclofenac 100mg Tablet","product_information":"30's","category":"VATABLE","product_price":450,"id":12},{"product":"DOLOWIN PLUS ","generic_name":"Aceclofenac + Paracetamol Tablet","product_information":"100's","category":"VATABLE","product_price":2200,"id":13},{"product":"DOLOWIN SR ","generic_name":"Aceclofenac 200mg Tablet","product_information":"50's","category":"VATABLE","product_price":1400,"id":14},{"product":"CETODOL ","generic_name":"Tramadol HCL 37.5mg + Paracetamol 325 mg","product_information":"50's","category":"VATABLE","product_price":1250,"id":15},{"product":"MEBUX 40MG","generic_name":"40MG Febuxostat 40mg Tablet","product_information":"30's","category":"VATABLE","product_price":660,"id":16},{"product":"MEBUX 80MG","generic_name":"80MG Febuxostat 80mg Tablet","product_information":"30's","category":"VATABLE","product_price":930,"id":17},{"product":"PANTOCAR ","generic_name":"Pantoprazole 40 mg Tablet","product_information":"30's","category":"VATABLE","product_price":1050,"id":18},{"product":"URSODOX ","generic_name":"Ursodeoxycholic Acid 250mg Capsules","product_information":"100's","category":"VATABLE","product_price":5000,"id":19},{"product":"GASTRIUM ","generic_name":"Domperidone 10mg Tablet","product_information":"100's","category":"VATABLE","product_price":1150,"id":20},{"product":"ASKEY ","generic_name":"Cetirizine HCI 10 mg Tablet","product_information":"100's","category":"VATABLE","product_price":1600,"id":21},{"product":"ASKEY DT ","generic_name":"Cetirizine Hydrochloride Dispersible Tablet","product_information":"100's","category":"VATABLE","product_price":600,"id":22},{"product":"EBAST DT ","generic_name":"Ebastine Dispersible Tablets 5mg","product_information":"30's","category":"VATABLE","product_price":390,"id":23},{"product":"MICROPHYLLINE ","generic_name":"Doxophylline Tablet 400mg","product_information":"30's","category":"VATABLE","product_price":900,"id":24},{"product":"STAFOBAN CREAM ","generic_name":"Fusidic acid 10g tube","product_information":"1's","category":"VATABLE","product_price":220,"id":25},{"product":"CARTINEX ","generic_name":"Ranolazine 500mg Extended-Release Tablet","product_information":"30's","category":"VATABLE","product_price":720,"id":26},{"product":"CARTINEX OD ","generic_name":"Ranolazine 1000mg Extended-Release Tablet","product_information":"30's","category":"VATABLE","product_price":1170,"id":27},{"product":"CILOZOL 50MG","generic_name":"50MG Cilostazol USP 50mg Tablet","product_information":"30's","category":"VATABLE","product_price":600,"id":28},{"product":"CILOZOL 100MG","generic_name":"100MG Cilostazol USP 100mg Tablet","product_information":"30's","category":"VATABLE","product_price":1140,"id":29},{"product":"ESOFAG 20mg","generic_name":"Esomeprazole Magnesium Trihydrate 20mg Tablet","product_information":"30's","category":"VATABLE","product_price":1200,"id":30},{"product":"ESOFAG 40mg","generic_name":"Esomeprazole Magnesium Trihydrate 40mg Tablet","product_information":"30's","category":"VATABLE","product_price":1800,"id":31},{"product":"TIGLOR","generic_name":"Ticagrelor 90mg Film-coated Tablet","product_information":"30's","category":"VATABLE","product_price":930,"id":32},{"product":"TURBOVAS CP","generic_name":"Rosuvastatin + Clopidogrel 5mg/75mg Tablet","product_information":"30's","category":"VATABLE","product_price":420,"id":33},{"product":"KEFEZY 125mg","generic_name":"125MG Cefuroxime Axetil Tablet USP 125 mg","product_information":"30's","category":"VATABLE","product_price":450,"id":34},{"product":"URGISO 5MG","generic_name":"Solifenacin Succinate 5mg","product_information":"30's","category":"VATABLE","product_price":1200,"id":35},{"product":"AMLOZAAR","generic_name":"Losartan Potassium 50 mg Tablet + Amlodipine 5mg Tablets","product_information":"30's","category":"NON-VAT","product_price":643,"id":36},{"product":"AMLOZAAR-H","generic_name":"Amlodipine 5mg,Losartan Potassium 50mg+Hydrochlorothiazide 12. 5 mg Tablets","product_information":"30's","category":"NON-VAT","product_price":750,"id":37},{"product":"CALCIVAS 5mg","generic_name":"Amlodipine Besylate 5mg Tablet","product_information":"50's","category":"NON-VAT","product_price":335,"id":38},{"product":"CALCIVAS 10mg","generic_name":"Amlodipine Besylate 10mg Tablet","product_information":"30's","category":"NON-VAT","product_price":295,"id":39},{"product":"NIPARTAN","generic_name":"Losartan Potassium 50 mg Tablet","product_information":"30's","category":"NON-VAT","product_price":348,"id":40},{"product":"NIPARTAN-H","generic_name":"Lozartan + Hydrochlorothiazide 50mg/12.5mg","product_information":"30's","category":"NON-VAT","product_price":388,"id":41},{"product":"OLMAT 20mg","generic_name":"Olmesartan Medoxomil Tablet 20mg","product_information":"30's","category":"NON-VAT","product_price":482,"id":42},{"product":"OLMAT 40mg","generic_name":"Olmesartan Medoxomil Tablet 40mg","product_information":"30's","category":"NON-VAT","product_price":670,"id":43},{"product":"BALSARTEC 80mg","generic_name":"Valsartan 80mg Tablet","product_information":"30's","category":"NON-VAT","product_price":670,"id":44},{"product":"BALSARTEC 160mg","generic_name":"Valsartan 160mg Tablet","product_information":"30's","category":"NON-VAT","product_price":1018,"id":45},{"product":"AVAS 10mg","generic_name":"Atorvastatin Tablet 10mg","product_information":"30's","category":"NON-VAT","product_price":482,"id":46},{"product":"AVAS 20mg","generic_name":"Atorvastatin Tablet 20mg","product_information":"30's","category":"NON-VAT","product_price":750,"id":47},{"product":"FIBROVAS","generic_name":"Fenofibrate and Atorvastatin Tablet","product_information":"30's","category":"NON-VAT","product_price":720,"id":48},{"product":"TURBOVAS","generic_name":"Rosuvastatin Calcium 5mg Tablet","product_information":"30's","category":"NON-VAT","product_price":321,"id":49},{"product":"TURBOVAS 10mg","generic_name":"Rosuvastatin Calcium 10mg Tablet","product_information":"30's","category":"NON-VAT","product_price":589,"id":50},{"product":"TURBOVAS 10mg","generic_name":"Rosuvastatin Calcium 10mg Tablet","product_information":"100's","category":"NON-VAT","product_price":1964,"id":51},{"product":"TURBOVAS 20mg","generic_name":"Rosuvastatin Calcium 20mg Tablet","product_information":"30's","category":"NON-VAT","product_price":884,"id":52},{"product":"MELANOV MR 30mg","generic_name":"Gliclazide 30 mg Tablet","product_information":"100's","category":"NON-VAT","product_price":700,"id":53},{"product":"MELANOV MR 60mg","generic_name":"Gliclazide 60 mg Tablet","product_information":"100's","category":"NON-VAT","product_price":1275,"id":54},{"product":"TENEPRIDE","generic_name":"Teneligliptin 20mg Tablet","product_information":"30's","category":"NON-VAT","product_price":690,"id":55},{"product":"MELMET SR 1000","generic_name":"Metformin Hydrochloride 1000 mg Tablet","product_information":"30's","category":"NON-VAT","product_price":375,"id":56},{"product":"MELMET 850","generic_name":"Metformin Hydrochloride 850 mg Tablet","product_information":"50's","category":"NON-VAT","product_price":447,"id":57},{"product":"MELMET SR 500 ","generic_name":"Metformin Hydrochloride 500 mg Tablet","product_information":"30's","category":"NON-VAT","product_price":214,"id":58},{"product":"MELANOV M ","generic_name":"Gliclazide 80mg + Metformin Hydrochloride","product_information":"30's","category":"NON-VAT","product_price":504,"id":59},{"product":"TRIPRIDE ","generic_name":"Glimepiride + Pioglitazone HCL + Metformin HCL","product_information":"10's","category":"NON-VAT","product_price":224,"id":60},{"product":"CARVIDON-MR","generic_name":"Trimetazidine 35 mg Modified Release Tablet","product_information":"100's","category":"NON-VAT","product_price":1400,"id":61},{"product":"PLAGERINE","generic_name":"Clopidogrel 75mg Tablet","product_information":"30's","category":"NON-VAT","product_price":1050,"id":62},{"product":"SYCLOP 25mg","generic_name":"Clozapine 25mg Tablet","product_information":"30's","category":"NON-VAT","product_price":600,"id":63},{"product":"SYCLOP 100mg","generic_name":"Clozapine 100mg Tablet","product_information":"30's","category":"NON-VAT","product_price":1860,"id":64},{"product":"SYCLOP 100mg","generic_name":"Clozapine 100mg Tablet","product_information":"100's","category":"NON-VAT","product_price":6400,"id":65},{"product":"RISPOND 1mg","generic_name":"Risperidone 1mg Tablet","product_information":"10's","category":"NON-VAT","product_price":280,"id":66},{"product":"RISPOND 2mg","generic_name":"Risperidone 2mg Tablet","product_information":"30's","category":"NON-VAT","product_price":1680,"id":67},{"product":"RISPOND 2mg","generic_name":"Risperidone 2mg Tablet","product_information":"10's","category":"NON-VAT","product_price":560,"id":68},{"product":"RISPOND 4mg","generic_name":"Risperidone 4mg Tablet","product_information":"10's","category":"NON-VAT","product_price":1010,"id":69},{"product":"Q-WIN 25mg","generic_name":"Quetiapine 25mg Tablet","product_information":"50's","category":"NON-VAT","product_price":1600,"id":70},{"product":"Q-WIN 100mg","generic_name":"Quetiapine 100mg Tablet","product_information":"50's","category":"NON-VAT","product_price":2850,"id":71},{"product":"Q-WIN 200mg","generic_name":"Quetiapine 200mg Tablet","product_information":"50's","category":"NON-VAT","product_price":5350,"id":72},{"product":"OLAN 5MG","generic_name":"Olanzapine 5mg Tablet","product_information":"30's","category":"NON-VAT","product_price":1350,"id":73},{"product":"OLAN 10MG","generic_name":"Olanzapine 10mg Tablet","product_information":"100's","category":"NON-VAT","product_price":8800,"id":74},{"product":"OLAN ODT","generic_name":"10MG Olanzapine 10mg Orodispersible Tablet","product_information":"30's","category":"NON-VAT","product_price":2640,"id":75},{"product":"OLAN ODT 5MG","generic_name":"Olanzapine 5mg Orodispersible Tablet","product_information":"30's","category":"NON-VAT","product_price":1350,"id":76},{"product":"MIRAZEP","generic_name":"Mirtazapine 30mg Tablet","product_information":"30's","category":"NON-VAT","product_price":1560,"id":77},{"product":"ZOTRAL","generic_name":"Setraline 50mg Tablet","product_information":"100's","category":"NON-VAT","product_price":3000,"id":78},{"product":"S-CELEPRA 5mg","generic_name":"Escitalopram Oxalate 5mg Tablet","product_information":"30's","category":"NON-VAT","product_price":390,"id":79},{"product":"S-CELEPRA 10mg","generic_name":"Escitalopram Oxalate 10mg Tablet","product_information":"30's","category":"NON-VAT","product_price":960,"id":80},{"product":"S-CELEPRA 20mg","generic_name":"Escitalopram Oxalate 20mg Tablet","product_information":"30's","category":"NON-VAT","product_price":1500,"id":81},{"product":"NEUROCETAM 800mg","generic_name":"Piracetam 800mg Tablet","product_information":"30's","category":"NON-VAT","product_price":480,"id":82},{"product":"NEUROCETAM 1200mg","generic_name":"Piracetam 1200mg Tablet","product_information":"30's","category":"NON-VAT","product_price":750,"id":83},{"product":"NUROCOL","generic_name":"Citicoline 500mg Tablet","product_information":"10's","category":"NON-VAT","product_price":500,"id":84},{"product":"MICROLIT 400mg","generic_name":"Lithium Carbonate Sustained Release 400 mg Tablet","product_information":"30's","category":"NON-VAT","product_price":240,"id":85},{"product":"LAMOTRIN ODT/25mg","generic_name":"Lamotrigine 25mg Orally Dispersible Tablet","product_information":"30's","category":"NON-VAT","product_price":390,"id":86},{"product":"LAMOTRIN ODT/50mg","generic_name":"Lamotrigine 50mg Orally Dispersible Tablet","product_information":"30's","category":"NON-VAT","product_price":660,"id":87},{"product":"LAMOTRIN ODT/100mg","generic_name":"Lamotrigine 100mg Orally Dispersible Tablet","product_information":"30's","category":"NON-VAT","product_price":930,"id":88},{"product":"CARBOX 300mg","generic_name":"Oxcarbazepine 300mg","product_information":"50's","category":"NON-VAT","product_price":850,"id":89},{"product":"CARBOX 600mg","generic_name":"Oxcarbazepine 600mg","product_information":"50's","category":"NON-VAT","product_price":1450,"id":90},{"product":"NEURICA","generic_name":"Pregabalin 75mg Capsule","product_information":"30's","category":"NON-VAT","product_price":990,"id":91},{"product":"EPITOP 25mg","generic_name":"Topiramate 25mg Tablet","product_information":"50's","category":"VATABLE","product_price":750,"id":92},{"product":"EPITOP 50mg","generic_name":"Topiramate 50mg Tablet","product_information":"50's","category":"VATABLE","product_price":1350,"id":93},{"product":"EPITOP 100mg","generic_name":"Topiramate 100mg Tablet","product_information":"30's","category":"VATABLE","product_price":1560,"id":94},{"product":"GABALEPT 300mg","generic_name":"Gabapentin 300mg Capsule","product_information":"30's","category":"VATABLE","product_price":718.5,"id":95},{"product":"LEVACETAM 500mg","generic_name":"Levetiracetam Tablets USP 500mg","product_information":"30's","category":"VATABLE","product_price":930,"id":96},{"product":"PARDOPA","generic_name":"Levodopa & Carbidopa Tablets","product_information":"60's","category":"VATABLE","product_price":2400,"id":97},{"product":"PRIDEL-1mg","generic_name":"Pramipexole Dihydrochloride 1mg Tablets","product_information":"30's","category":"VATABLE","product_price":1470,"id":98},{"product":"PRIDEL-250MCG","generic_name":"Pramipexole Dihydrochloride 0.25mg Tablets","product_information":"30's","category":"VATABLE","product_price":600,"id":99},{"product":"MICROLIT 300mg","generic_name":"Lithium Carbonate 300mg","product_information":"50's","category":"VATABLE","product_price":300,"id":100}]
+[
+    {
+      "id": 1,
+      "product": "PRULIBACT",
+      "generic_name": "Prulifloxacin 600 mg Tablet",
+      "product_information": "5's",
+      "category": "VATABLE",
+      "product_price": 1000
+    },
+    {
+      "product": "PRULIBACT",
+      "generic_name": "Prulifloxacin 600 mg Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 6000,
+      "id": 2
+    },
+    {
+      "product": "KEFEZY",
+      "generic_name": "Cefuroxime 500 mg Tablet",
+      "product_information": "12's",
+      "category": "VATABLE",
+      "product_price": 720,
+      "id": 3
+    },
+    {
+      "product": "LEVOBACT 500mg",
+      "generic_name": "Levofloxacin 500 mg Tablet",
+      "product_information": "50's",
+      "category": "VATABLE",
+      "product_price": 3000,
+      "id": 4
+    },
+    {
+      "product": "LEVOBACT 750mg",
+      "generic_name": "Levofloxacin 750 mg Tablet",
+      "product_information": "50's",
+      "category": "VATABLE",
+      "product_price": 4500,
+      "id": 5
+    },
+    {
+      "product": "AZILIDE-DT",
+      "generic_name": "Azithromycin Dihydrate 100 mg Tablet",
+      "product_information": "15's",
+      "category": "VATABLE",
+      "product_price": 600,
+      "id": 6
+    },
+    {
+      "product": "AZILIDE 500",
+      "generic_name": " Azithromycin 500 mg Tablet",
+      "product_information": "3's",
+      "category": "VATABLE",
+      "product_price": 330,
+      "id": 7
+    },
+    {
+      "product": "CLARIWIN DT",
+      "generic_name": "Clarithromycin 125mg Dispersable Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 660,
+      "id": 8
+    },
+    {
+      "product": "ORNILOX",
+      "generic_name": "Ornidazole 500mg + Ofloxacin 200mg Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 1500,
+      "id": 9
+    },
+    {
+      "product": "FUNGICON",
+      "generic_name": "Fluconazole 150mg",
+      "product_information": "25's",
+      "category": "VATABLE",
+      "product_price": 3125,
+      "id": 10
+    },
+    {
+      "product": "OSTONEE",
+      "generic_name": "Diacerein 50mg Capsule",
+      "product_information": "10's",
+      "category": "VATABLE",
+      "product_price": 400,
+      "id": 11
+    },
+    {
+      "product": "DOLOWIN ",
+      "generic_name": "Aceclofenac 100mg Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 450,
+      "id": 12
+    },
+    {
+      "product": "DOLOWIN PLUS ",
+      "generic_name": "Aceclofenac + Paracetamol Tablet",
+      "product_information": "100's",
+      "category": "VATABLE",
+      "product_price": 2200,
+      "id": 13
+    },
+    {
+      "product": "DOLOWIN SR ",
+      "generic_name": "Aceclofenac 200mg Tablet",
+      "product_information": "50's",
+      "category": "VATABLE",
+      "product_price": 1400,
+      "id": 14
+    },
+    {
+      "product": "CETODOL ",
+      "generic_name": "Tramadol HCL 37.5mg + Paracetamol 325 mg",
+      "product_information": "50's",
+      "category": "VATABLE",
+      "product_price": 1250,
+      "id": 15
+    },
+    {
+      "product": "MEBUX 40MG",
+      "generic_name": "40MG Febuxostat 40mg Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 660,
+      "id": 16
+    },
+    {
+      "product": "MEBUX 80MG",
+      "generic_name": "80MG Febuxostat 80mg Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 930,
+      "id": 17
+    },
+    {
+      "product": "PANTOCAR ",
+      "generic_name": "Pantoprazole 40 mg Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 1050,
+      "id": 18
+    },
+    {
+      "product": "URSODOX ",
+      "generic_name": "Ursodeoxycholic Acid 250mg Capsules",
+      "product_information": "100's",
+      "category": "VATABLE",
+      "product_price": 5000,
+      "id": 19
+    },
+    {
+      "product": "GASTRIUM ",
+      "generic_name": "Domperidone 10mg Tablet",
+      "product_information": "100's",
+      "category": "VATABLE",
+      "product_price": 1150,
+      "id": 20
+    },
+    {
+      "product": "ASKEY ",
+      "generic_name": "Cetirizine HCI 10 mg Tablet",
+      "product_information": "100's",
+      "category": "VATABLE",
+      "product_price": 1600,
+      "id": 21
+    },
+    {
+      "product": "ASKEY DT ",
+      "generic_name": "Cetirizine Hydrochloride Dispersible Tablet",
+      "product_information": "100's",
+      "category": "VATABLE",
+      "product_price": 600,
+      "id": 22
+    },
+    {
+      "product": "EBAST DT ",
+      "generic_name": "Ebastine Dispersible Tablets 5mg",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 390,
+      "id": 23
+    },
+    {
+      "product": "MICROPHYLLINE ",
+      "generic_name": "Doxophylline Tablet 400mg",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 900,
+      "id": 24
+    },
+    {
+      "product": "STAFOBAN CREAM ",
+      "generic_name": "Fusidic acid 10g tube",
+      "product_information": "1's",
+      "category": "VATABLE",
+      "product_price": 220,
+      "id": 25
+    },
+    {
+      "product": "CARTINEX ",
+      "generic_name": "Ranolazine 500mg Extended-Release Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 720,
+      "id": 26
+    },
+    {
+      "product": "CARTINEX OD ",
+      "generic_name": "Ranolazine 1000mg Extended-Release Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 1170,
+      "id": 27
+    },
+    {
+      "product": "CILOZOL 50MG",
+      "generic_name": "50MG Cilostazol USP 50mg Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 600,
+      "id": 28
+    },
+    {
+      "product": "CILOZOL 100MG",
+      "generic_name": "100MG Cilostazol USP 100mg Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 1140,
+      "id": 29
+    },
+    {
+      "product": "ESOFAG 20mg",
+      "generic_name": "Esomeprazole Magnesium Trihydrate 20mg Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 1200,
+      "id": 30
+    },
+    {
+      "product": "ESOFAG 40mg",
+      "generic_name": "Esomeprazole Magnesium Trihydrate 40mg Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 1800,
+      "id": 31
+    },
+    {
+      "product": "TIGLOR",
+      "generic_name": "Ticagrelor 90mg Film-coated Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 930,
+      "id": 32
+    },
+    {
+      "product": "TURBOVAS CP",
+      "generic_name": "Rosuvastatin + Clopidogrel 5mg/75mg Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 420,
+      "id": 33
+    },
+    {
+      "product": "KEFEZY 125mg",
+      "generic_name": "125MG Cefuroxime Axetil Tablet USP 125 mg",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 450,
+      "id": 34
+    },
+    {
+      "product": "URGISO 5MG",
+      "generic_name": "Solifenacin Succinate 5mg",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 1200,
+      "id": 35
+    },
+    {
+      "product": "AMLOZAAR",
+      "generic_name": "Losartan Potassium 50 mg Tablet + Amlodipine 5mg Tablets",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 643,
+      "id": 36
+    },
+    {
+      "product": "AMLOZAAR-H",
+      "generic_name": "Amlodipine 5mg,Losartan Potassium 50mg+Hydrochlorothiazide 12. 5 mg Tablets",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 750,
+      "id": 37
+    },
+    {
+      "product": "CALCIVAS 5mg",
+      "generic_name": "Amlodipine Besylate 5mg Tablet",
+      "product_information": "50's",
+      "category": "NON-VAT",
+      "product_price": 335,
+      "id": 38
+    },
+    {
+      "product": "CALCIVAS 10mg",
+      "generic_name": "Amlodipine Besylate 10mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 295,
+      "id": 39
+    },
+    {
+      "product": "NIPARTAN",
+      "generic_name": "Losartan Potassium 50 mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 348,
+      "id": 40
+    },
+    {
+      "product": "NIPARTAN-H",
+      "generic_name": "Lozartan + Hydrochlorothiazide 50mg/12.5mg",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 388,
+      "id": 41
+    },
+    {
+      "product": "OLMAT 20mg",
+      "generic_name": "Olmesartan Medoxomil Tablet 20mg",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 482,
+      "id": 42
+    },
+    {
+      "product": "OLMAT 40mg",
+      "generic_name": "Olmesartan Medoxomil Tablet 40mg",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 670,
+      "id": 43
+    },
+    {
+      "product": "BALSARTEC 80mg",
+      "generic_name": "Valsartan 80mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 670,
+      "id": 44
+    },
+    {
+      "product": "BALSARTEC 160mg",
+      "generic_name": "Valsartan 160mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 1018,
+      "id": 45
+    },
+    {
+      "product": "AVAS 10mg",
+      "generic_name": "Atorvastatin Tablet 10mg",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 482,
+      "id": 46
+    },
+    {
+      "product": "AVAS 20mg",
+      "generic_name": "Atorvastatin Tablet 20mg",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 750,
+      "id": 47
+    },
+    {
+      "product": "FIBROVAS",
+      "generic_name": "Fenofibrate and Atorvastatin Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 720,
+      "id": 48
+    },
+    {
+      "product": "TURBOVAS",
+      "generic_name": "Rosuvastatin Calcium 5mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 321,
+      "id": 49
+    },
+    {
+      "product": "TURBOVAS 10mg",
+      "generic_name": "Rosuvastatin Calcium 10mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 589,
+      "id": 50
+    },
+    {
+      "product": "TURBOVAS 10mg",
+      "generic_name": "Rosuvastatin Calcium 10mg Tablet",
+      "product_information": "100's",
+      "category": "NON-VAT",
+      "product_price": 1964,
+      "id": 51
+    },
+    {
+      "product": "TURBOVAS 20mg",
+      "generic_name": "Rosuvastatin Calcium 20mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 884,
+      "id": 52
+    },
+    {
+      "product": "MELANOV MR 30mg",
+      "generic_name": "Gliclazide 30 mg Tablet",
+      "product_information": "100's",
+      "category": "NON-VAT",
+      "product_price": 700,
+      "id": 53
+    },
+    {
+      "product": "MELANOV MR 60mg",
+      "generic_name": "Gliclazide 60 mg Tablet",
+      "product_information": "100's",
+      "category": "NON-VAT",
+      "product_price": 1275,
+      "id": 54
+    },
+    {
+      "product": "TENEPRIDE",
+      "generic_name": "Teneligliptin 20mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 690,
+      "id": 55
+    },
+    {
+      "product": "MELMET SR 1000",
+      "generic_name": "Metformin Hydrochloride 1000 mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 375,
+      "id": 56
+    },
+    {
+      "product": "MELMET 850",
+      "generic_name": "Metformin Hydrochloride 850 mg Tablet",
+      "product_information": "50's",
+      "category": "NON-VAT",
+      "product_price": 447,
+      "id": 57
+    },
+    {
+      "product": "MELMET SR 500 ",
+      "generic_name": "Metformin Hydrochloride 500 mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 214,
+      "id": 58
+    },
+    {
+      "product": "MELANOV M ",
+      "generic_name": "Gliclazide 80mg + Metformin Hydrochloride",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 504,
+      "id": 59
+    },
+    {
+      "product": "TRIPRIDE ",
+      "generic_name": "Glimepiride + Pioglitazone HCL + Metformin HCL",
+      "product_information": "10's",
+      "category": "NON-VAT",
+      "product_price": 224,
+      "id": 60
+    },
+    {
+      "product": "CARVIDON-MR",
+      "generic_name": "Trimetazidine 35 mg Modified Release Tablet",
+      "product_information": "100's",
+      "category": "NON-VAT",
+      "product_price": 1400,
+      "id": 61
+    },
+    {
+      "product": "PLAGERINE",
+      "generic_name": "Clopidogrel 75mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 1050,
+      "id": 62
+    },
+    {
+      "product": "SYCLOP 25mg",
+      "generic_name": "Clozapine 25mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 600,
+      "id": 63
+    },
+    {
+      "product": "SYCLOP 100mg",
+      "generic_name": "Clozapine 100mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 1860,
+      "id": 64
+    },
+    {
+      "product": "SYCLOP 100mg",
+      "generic_name": "Clozapine 100mg Tablet",
+      "product_information": "100's",
+      "category": "NON-VAT",
+      "product_price": 6400,
+      "id": 65
+    },
+    {
+      "product": "RISPOND 1mg",
+      "generic_name": "Risperidone 1mg Tablet",
+      "product_information": "10's",
+      "category": "NON-VAT",
+      "product_price": 280,
+      "id": 66
+    },
+    {
+      "product": "RISPOND 2mg",
+      "generic_name": "Risperidone 2mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 1680,
+      "id": 67
+    },
+    {
+      "product": "RISPOND 2mg",
+      "generic_name": "Risperidone 2mg Tablet",
+      "product_information": "10's",
+      "category": "NON-VAT",
+      "product_price": 560,
+      "id": 68
+    },
+    {
+      "product": "RISPOND 4mg",
+      "generic_name": "Risperidone 4mg Tablet",
+      "product_information": "10's",
+      "category": "NON-VAT",
+      "product_price": 1010,
+      "id": 69
+    },
+    {
+      "product": "Q-WIN 25mg",
+      "generic_name": "Quetiapine 25mg Tablet",
+      "product_information": "50's",
+      "category": "NON-VAT",
+      "product_price": 1600,
+      "id": 70
+    },
+    {
+      "product": "Q-WIN 100mg",
+      "generic_name": "Quetiapine 100mg Tablet",
+      "product_information": "50's",
+      "category": "NON-VAT",
+      "product_price": 2850,
+      "id": 71
+    },
+    {
+      "product": "Q-WIN 200mg",
+      "generic_name": "Quetiapine 200mg Tablet",
+      "product_information": "50's",
+      "category": "NON-VAT",
+      "product_price": 5350,
+      "id": 72
+    },
+    {
+      "product": "OLAN 5MG",
+      "generic_name": "Olanzapine 5mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 1350,
+      "id": 73
+    },
+    {
+      "product": "OLAN 10MG",
+      "generic_name": "Olanzapine 10mg Tablet",
+      "product_information": "100's",
+      "category": "NON-VAT",
+      "product_price": 8800,
+      "id": 74
+    },
+    {
+      "product": "OLAN ODT",
+      "generic_name": "10MG Olanzapine 10mg Orodispersible Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 2640,
+      "id": 75
+    },
+    {
+      "product": "OLAN ODT 5MG",
+      "generic_name": "Olanzapine 5mg Orodispersible Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 1350,
+      "id": 76
+    },
+    {
+      "product": "MIRAZEP",
+      "generic_name": "Mirtazapine 30mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 1560,
+      "id": 77
+    },
+    {
+      "product": "ZOTRAL",
+      "generic_name": "Setraline 50mg Tablet",
+      "product_information": "100's",
+      "category": "NON-VAT",
+      "product_price": 3000,
+      "id": 78
+    },
+    {
+      "product": "S-CELEPRA 5mg",
+      "generic_name": "Escitalopram Oxalate 5mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 390,
+      "id": 79
+    },
+    {
+      "product": "S-CELEPRA 10mg",
+      "generic_name": "Escitalopram Oxalate 10mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 960,
+      "id": 80
+    },
+    {
+      "product": "S-CELEPRA 20mg",
+      "generic_name": "Escitalopram Oxalate 20mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 1500,
+      "id": 81
+    },
+    {
+      "product": "NEUROCETAM 800mg",
+      "generic_name": "Piracetam 800mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 480,
+      "id": 82
+    },
+    {
+      "product": "NEUROCETAM 1200mg",
+      "generic_name": "Piracetam 1200mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 750,
+      "id": 83
+    },
+    {
+      "product": "NUROCOL",
+      "generic_name": "Citicoline 500mg Tablet",
+      "product_information": "10's",
+      "category": "NON-VAT",
+      "product_price": 500,
+      "id": 84
+    },
+    {
+      "product": "MICROLIT 400mg",
+      "generic_name": "Lithium Carbonate Sustained Release 400 mg Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 240,
+      "id": 85
+    },
+    {
+      "product": "LAMOTRIN ODT/25mg",
+      "generic_name": "Lamotrigine 25mg Orally Dispersible Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 390,
+      "id": 86
+    },
+    {
+      "product": "LAMOTRIN ODT/50mg",
+      "generic_name": "Lamotrigine 50mg Orally Dispersible Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 660,
+      "id": 87
+    },
+    {
+      "product": "LAMOTRIN ODT/100mg",
+      "generic_name": "Lamotrigine 100mg Orally Dispersible Tablet",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 930,
+      "id": 88
+    },
+    {
+      "product": "CARBOX 300mg",
+      "generic_name": "Oxcarbazepine 300mg",
+      "product_information": "50's",
+      "category": "NON-VAT",
+      "product_price": 850,
+      "id": 89
+    },
+    {
+      "product": "CARBOX 600mg",
+      "generic_name": "Oxcarbazepine 600mg",
+      "product_information": "50's",
+      "category": "NON-VAT",
+      "product_price": 1450,
+      "id": 90
+    },
+    {
+      "product": "NEURICA",
+      "generic_name": "Pregabalin 75mg Capsule",
+      "product_information": "30's",
+      "category": "NON-VAT",
+      "product_price": 990,
+      "id": 91
+    },
+    {
+      "product": "EPITOP 25mg",
+      "generic_name": "Topiramate 25mg Tablet",
+      "product_information": "50's",
+      "category": "VATABLE",
+      "product_price": 750,
+      "id": 92
+    },
+    {
+      "product": "EPITOP 50mg",
+      "generic_name": "Topiramate 50mg Tablet",
+      "product_information": "50's",
+      "category": "VATABLE",
+      "product_price": 1350,
+      "id": 93
+    },
+    {
+      "product": "EPITOP 100mg",
+      "generic_name": "Topiramate 100mg Tablet",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 1560,
+      "id": 94
+    },
+    {
+      "product": "GABALEPT 300mg",
+      "generic_name": "Gabapentin 300mg Capsule",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 718.5,
+      "id": 95
+    },
+    {
+      "product": "LEVACETAM 500mg",
+      "generic_name": "Levetiracetam Tablets USP 500mg",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 930,
+      "id": 96
+    },
+    {
+      "product": "PARDOPA",
+      "generic_name": "Levodopa & Carbidopa Tablets",
+      "product_information": "60's",
+      "category": "VATABLE",
+      "product_price": 2400,
+      "id": 97
+    },
+    {
+      "product": "PRIDEL-1mg",
+      "generic_name": "Pramipexole Dihydrochloride 1mg Tablets",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 1470,
+      "id": 98
+    },
+    {
+      "product": "PRIDEL-250MCG",
+      "generic_name": "Pramipexole Dihydrochloride 0.25mg Tablets",
+      "product_information": "30's",
+      "category": "VATABLE",
+      "product_price": 600,
+      "id": 99
+    },
+    {
+      "product": "MICROLIT 300mg",
+      "generic_name": "Lithium Carbonate 300mg",
+      "product_information": "50's",
+      "category": "VATABLE",
+      "product_price": 300,
+      "id": 100
+    }
+  ]

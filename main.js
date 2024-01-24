@@ -130,8 +130,8 @@ function displayProducts(products) {
       </div>
     -->
 
-      <div class="product-card"><a class="product-card__image" href="https://aharito.ru" target="_blank"><img src="img/product-med.jpg" alt="Product List Card UI"/></a>
-        <div class="product-card__body"><a class="product-card__title" href="https://aharito.ru">${product.product}</a>
+      <div class="product-card"><a class="product-card__image" href="" target="_blank"><img src="img/product-med.jpg" alt="Product List Card UI"/></a>
+        <div class="product-card__body"><a class="product-card__title" href="">${product.product}</a>
           <div class="product-card__desc">${product.generic_name}</div>
           <div class="product-card__stock">In stock</div>
           <div class="product-card__price price"><span class="price__current">Php ${product.product_price}.00</span><!--<span class="price__old">8054р</span>--></div>
@@ -274,10 +274,14 @@ if (window.location.pathname === '/product-info.html') {
   // Get the value of 'productID' from the URL
   const productID = urlParams.get('productID');
   //console.log(productID); // This will log the value of 'productID'
-
+  searchInput.addEventListener('keydown', (e) => {
+    if(e.keycode === 13) {
+      window.location.href = '/products.html';
+    }
+  })
 }
 
-  
+
 // function displayProductsInformation(productsInformation) {
 //   const main = document.querySelector('main.products');
 
@@ -370,39 +374,39 @@ if (window.location.pathname === '/careers.html') {
 
 
 
-if (window.location.pathname === '/product-info.html') {
+// if (window.location.pathname === '/product-info.html') {
 
-  const accordionProductButtons = document.querySelectorAll('.accordionProducts__button');
-  const accordionProductContents = document.querySelectorAll('.accordionProducts__content');
-  const accordionContainer = document.querySelector('.accordionProducts__btn-container');
-  const mainProduct = document.getElementById('accordionProducts');
+//   const accordionProductButtons = document.querySelectorAll('.accordionProducts__button');
+//   const accordionProductContents = document.querySelectorAll('.accordionProducts__content');
+//   const accordionContainer = document.querySelector('.accordionProducts__btn-container');
+//   const mainProduct = document.getElementById('accordionProducts');
     
   
   
-  accordionContainer.addEventListener('click', (e) => {
-    const clicked = e.target.closest('.accordionProducts__button');
-    mainProduct.scrollIntoView({behavior: 'smooth'})
-    if(!clicked) return;
+//   accordionContainer.addEventListener('click', (e) => {
+//     const clicked = e.target.closest('.accordionProducts__button');
+//     mainProduct.scrollIntoView({behavior: 'smooth'})
+//     if(!clicked) return;
   
     
   
-    accordionProductButtons.forEach(el => {
-      el.classList.remove('accordionButton--active')
-    })
-    clicked.classList.add('accordionButton--active')
-    accordionProductContents.forEach(el => el.classList.add('hidden'))
-    document.querySelector(`.accordionProducts__content--${clicked.dataset.btn}`).classList.remove('hidden')
+//     accordionProductButtons.forEach(el => {
+//       el.classList.remove('accordionButton--active')
+//     })
+//     clicked.classList.add('accordionButton--active')
+//     accordionProductContents.forEach(el => el.classList.add('hidden'))
+//     document.querySelector(`.accordionProducts__content--${clicked.dataset.btn}`).classList.remove('hidden')
   
-  })
+//   })
 
-}
+// }
   
 
 
 
 if (window.location.pathname === '/contactus.html') {
   // Get the URL parameters
-  const location = [14.554754, 121.0152508]
+  const location = [14.55477100, 121.01779160]
   const map = L.map('map').setView(location, 18);
 
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
