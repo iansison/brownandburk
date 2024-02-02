@@ -1,3 +1,4 @@
+'use strict';
 const toggle = document.querySelector('.btn-nav');
 
 const btnToggle = document.querySelector('.mobile-nav-toggle');
