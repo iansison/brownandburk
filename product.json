@@ -1,802 +1,1410 @@
 [
-    {
+  {
       "id": 1,
       "product": "PRULIBACT",
       "generic_name": "Prulifloxacin 600 mg Tablet",
       "product_information": "5's",
       "category": "VATABLE",
-      "product_price": 1000
-    },
-    {
+      "product_price": 1000,
+      "productDesc": "Brownish pink colored, oval shaped film-coated tablet with a breakline on one surface.",
+      "productFormulation": "Each film-coated tablet contains: Prulifloxacin………………………600 mg",
+      "productIndication": "It is indicated in the treatment of infections caused by susceptible organisms, in the following conditions:",
+      "productIndicationList": [
+          "Acute uncomplicated lower urinary tract infections (simple cystitis);",
+          "Complicated lower urinary tract infections;",
+          "Acute exacerbation of chronic bronchitis.The local antibiotic susceptibility pattern should be considered in the treatment of patients with infectious diseases."
+      ],
+      "productDoseAdmin": "For adults only, the indicative dosage is as follows:\n• Patients with acute uncomplicated lower urinary tract infections (simple cystitis): one 600 mg tablet is sufficient;\n• Patients with complicated lower urinary tract infections: one 600 mg tablet once daily for up to a maximum of 10 days of treatment.\n• Patients with acute exacerbation of bronchitis: one 600 mg tablet once daily for up to a maximum of 10 days of treatment.",
+      "productInsertLink": "PRULIBACT.pdf"
+  },
+  {
       "product": "PRULIBACT",
       "generic_name": "Prulifloxacin 600 mg Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 6000,
-      "id": 2
-    },
-    {
+      "id": 2,
+      "productDesc": "Brownish pink colored, oval shaped film-coated tablet with a breakline on one surface.",
+      "productFormulation": "Each film-coated tablet contains: Prulifloxacin………………………600 mg",
+      "productIndication": "It is indicated in the treatment of infections caused by susceptible organisms, in the following conditions:",
+      "productIndicationList": [
+          "Acute uncomplicated lower urinary tract infections (simple cystitis);",
+          "Complicated lower urinary tract infections;",
+          "Acute exacerbation of chronic bronchitis.<br>The local antibiotic susceptibility pattern should be considered in the treatment of patients with infectious diseases."
+      ],
+      "productDoseAdmin": "For adults only, the indicative dosage is as follows:\n• Patients with acute uncomplicated lower urinary tract infections (simple cystitis): one 600 mg tablet is sufficient;\n• Patients with complicated lower urinary tract infections: one 600 mg tablet once daily for up to a maximum of 10 days of treatment.\n• Patients with acute exacerbation of bronchitis: one 600 mg tablet once daily for up to a maximum of 10 days of treatment.",
+      "productInsertLink": "PRULIBACT.pdf"
+  },
+  {
       "product": "KEFEZY",
       "generic_name": "Cefuroxime 500 mg Tablet",
       "product_information": "12's",
       "category": "VATABLE",
       "product_price": 720,
-      "id": 3
-    },
-    {
+      "id": 3,
+      "productDesc": "White oblong shaped film-coated tablet having breakline on one side and plain on another side.",
+      "productFormulation": "Each film-coated tablet contains:Cefuroxime axetil………………………500mg",
+      "productIndication": "It is indicated for the treatment of the infections listed below in adults and children from the age of 3months.",
+      "productIndicationList": ["Acute streptococcal tonsilitis and pharyngitis.","Acute bacterial sinusitis","Acute otitis media","Acute exacerbations of chronic bronchitis","Cystitis","Pyelonephritis","Uncomplicated skin adn soft tissues infections","Treatment of early Lyme disease"],
+      "productDoseAdmin": "Please download the complete patient information leaflet for proper dosage and administration.",
+      "productInsertLink": "KEFEZY.pdf"
+  },
+  {
       "product": "LEVOBACT 500mg",
       "generic_name": "Levofloxacin 500 mg Tablet",
       "product_information": "50's",
       "category": "VATABLE",
       "product_price": 3000,
-      "id": 4
-    },
-    {
+      "id": 4,
+      "productDesc": "Brownish pink colored, oblong shaped, film-coated tablets with a breakline on one surface.",
+      "productFormulation": "Each film-coated tablet contains:<br>Levofloxacin Hemihydrate equivalent to Levofloxacin…………………500mg",
+      "productIndication": "It is indicated for the treatment of adults (>18years of age) with mild, moderate and severe infections caused by susceptible strains of the designated microorganism.",
+      "productIndicationList": [],
+      "productDoseAdmin": "Please download the complete patient information leaflet for proper dosage and administration.",
+      "productInsertLink": "LEVOBACT 500mg.pdf"
+  },
+  {
       "product": "LEVOBACT 750mg",
       "generic_name": "Levofloxacin 750 mg Tablet",
       "product_information": "50's",
       "category": "VATABLE",
       "product_price": 4500,
-      "id": 5
-    },
-    {
+      "id": 5,
+      "productDesc": "",
+      "productFormulation": "Each film-coated tablet contains:<br>Levofloxacin Hemihydrate equivalent to Levofloxacin…………………750mg",
+      "productIndication": "It is indicated for the treatment of adults (>18years of age) with mild, moderate and severe infections caused by susceptible strains of the designated microorganism.",
+      "productIndicationList": [],
+      "productDoseAdmin": "Please download the complete patient information leaflet for proper dosage and administration.",
+      "productInsertLink": "LEVOBACT 750mg.pdf"
+  },
+  {
       "product": "AZILIDE-DT",
       "generic_name": "Azithromycin Dihydrate 100 mg Tablet",
       "product_information": "15's",
       "category": "VATABLE",
       "product_price": 600,
-      "id": 6
-    },
-    {
+      "id": 6,
+      "productDesc": "White to off white, oblong shaped, film-coated tablets with break line one surface and plain on the other surface.",
+      "productFormulation": "Each film-coated tablet contains:<br>Azithromycin (as Dihydrate)……500mg",
+      "productIndication": "",
+      "productIndicationList": ["<b>Adult Patients</b>","Acute bacterial exacerbations of chronic bronchitis due.","Acute bacterial sinusitis.","Community-acquired pneumonia in patients appropriate for oral therapy.","Pharyngitis/tonsilitis  as an alternative to first-line therapy in individuals who cannot use first-line therapy.","Uncomplicated skin and skin structure infections.","Urethritis and cervicitis ","Genital ulcer disease in men","<b>Pediatric Patients</b>","Acute otitis media (>6 months of age)","Community-acquired pneumonia (>6 months of age) in patients appropriate for oral therapy.","Pharyngitis/tonsilitis (>2 years of age) as an alternative to first-line therapy in individuals who cannot use first-line therapy."],
+      "productDoseAdmin": "Please download the complete patient information leaflet for proper dosage and administration.",
+      "productInsertLink": "AZILIDE-500.pdf"
+  },
+  {
       "product": "AZILIDE 500",
       "generic_name": " Azithromycin 500 mg Tablet",
       "product_information": "3's",
       "category": "VATABLE",
       "product_price": 330,
-      "id": 7
-    },
-    {
+      "id": 7,
+      "productDesc": "White to off white, oblong shaped, film-coated tablets with break line one surface and plain on the other surface.",
+      "productFormulation": "Each film-coated tablet contains:<br>Azithromycin (as Dihydrate)……500mg",
+      "productIndication": "",
+      "productIndicationList": ["<b>Adult Patients:</b>","Acute bacterial exacerbations of chronic bronchitis due.","Acute bacterial sinusitis.","Community-acquired pneumonia in patients appropriate for oral therapy.","Pharyngitis/tonsilitis  as an alternative to first-line therapy in individuals who cannot use first-line therapy.","Uncomplicated skin and skin structure infections.","Urethritis and cervicitis ","Genital ulcer disease in men","<b>Pediatric Patients:</b>","Acute otitis media (>6 months of age)","Community-acquired pneumonia (>6 months of age) in patients appropriate for oral therapy.","Pharyngitis/tonsilitis (>2 years of age) as an alternative to first-line therapy in individuals who cannot use first-line therapy."],
+      "productDoseAdmin": "Please download the complete patient information leaflet for proper dosage and administration.",
+      "productInsertLink": "AZILIDE-500.pdf"
+  },
+  {
       "product": "CLARIWIN DT",
       "generic_name": "Clarithromycin 125mg Dispersable Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 660,
-      "id": 8
-    },
-    {
+      "id": 8,
+      "productDesc": "Yellow colored, flat, circular, bevel edged, uncoated dispersible tablet with a breakline on one surface and plain on the other side.",
+      "productFormulation": "Each dispersible tablet contains:</br>Clarithromycin……………………125mg (as Clarithromycin Granules (suspension grade)",
+      "productIndication": "It is indicated in adults and children 12 years and older. Clarithromycin is for treatment of infections caused by susceptible organisms include: Lower respiratory tract infections, Upper respiratory tract infections. ",
+      "productIndicationList": [],
+      "productDoseAdmin": "It will be on the water temperature dispersion or directly after taking oral. Adult usual dose each 0.25g, once very 12hours. Serious infections each 0.5g once every 12hours or compliance. Children on a daily 10-15mg per kilogram, two to three hours taking.",
+      "productInsertLink": "CLARIWIN DT.pdf"
+  },
+  {
       "product": "ORNILOX",
       "generic_name": "Ornidazole 500mg + Ofloxacin 200mg Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 1500,
-      "id": 9
-    },
-    {
+      "id": 9,
+      "productDesc": "Orange colored, caplet shaped film-coated tablet with a 'MICRO' engraved on both sides.",
+      "productFormulation": "Each film-coated tablet contains:<br>Ornidazole………………………500mg<br>Ofloxacin………………………200 mg",
+      "productIndication": "Treatment of a wide variety of infections caused by susceptible gram-positive and gram-negative aerobes and anaerobes along with protozoa.",
+      "productIndicationList": ["Intra-abdominal injections and diarrhea of mixed bacterial and protozoal origin.","Gynecological infections like PID & prophylaxis in gynecological surgeries."," Surgical prophylaxis and surgical wound  infections.","Orofacial and dental infections","Respiratory tract infections like abscess, aspiration pneumonia and bronchiectasis","Dermatological injections like cellulitis, breast and other cutaneous abscesses, gangrene, diabetic and decubitus ulcers"],
+      "productDoseAdmin": "The usual adult dose is one tablet twice a day orally administration. The doses may be increased in severe infections. The duration of treatment depends upon the type and severity of infection or as prescribed by the physician.",
+      "productInsertLink": "ORNILOX.pdf"
+  },
+  {
       "product": "FUNGICON",
       "generic_name": "Fluconazole 150mg",
       "product_information": "25's",
       "category": "VATABLE",
       "product_price": 3125,
-      "id": 10
-    },
-    {
+      "id": 10,
+      "productDesc": "White/Red colored '2' size capsule with 'MICRO/MICRO' printed on capsule shells containing white granular powder.",
+      "productFormulation": "Each capsule contains:</br> Fluconazole USP…………………..150mg",
+      "productIndication": "It is indicated for several fungal infections.",
+      "productIndicationList": [],
+      "productDoseAdmin": "Please download the complete patient information leaflet for proper dosage and administration. ",
+      "productInsertLink": "FUNGICON.pdf"
+  },
+  {
       "product": "OSTONEE",
       "generic_name": "Diacerein 50mg Capsule",
       "product_information": "10's",
       "category": "VATABLE",
       "product_price": 400,
-      "id": 11
-    },
-    {
+      "id": 11,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": "OSTONEE.pdf"
+  },
+  {
       "product": "DOLOWIN ",
       "generic_name": "Aceclofenac 100mg Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 450,
-      "id": 12
-    },
-    {
+      "id": 12,
+      "productDesc": "White, circular, biconvex film-coated tablets, plain on both sides.",
+      "productFormulation": "Each film-coated tablet contains:</br>Aceclofenac…………………….100 mg",
+      "productIndication": "It is used in the management of osteoarthritis, rheumatoid arthritis and ankylosing spondylitis.",
+      "productIndicationList": [],
+      "productDoseAdmin": "<b>For Adults</b>: the recommended dose is 200 mg daily, taken as two separate 100mg doses, one tablet in the morning and one in the evening.",
+      "productInsertLink": ""
+  },
+  {
       "product": "DOLOWIN PLUS ",
       "generic_name": "Aceclofenac + Paracetamol Tablet",
       "product_information": "100's",
       "category": "VATABLE",
       "product_price": 2200,
-      "id": 13
-    },
-    {
+      "id": 13,
+      "productDesc": "White oblong shaped film-coated tablets with a breakline on one surface.",
+      "productFormulation": "Each film-coated tablet contains:<br>Aceclofenac…………………….100 mg<br>      Paracetamol…………………….500 mg",
+      "productIndication": "Treatment of pain and inflammation in osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, low back pain, dental pain, gynecological pain and inflammatory conditions of ear, nose and throat.",
+      "productIndicationList": [],
+      "productDoseAdmin": "The recommended dose of Aceclofenac and Paracetamol is 1 tablet in the morning and 1 tablet in the evening. Maximum of 2 tablets a day. Or as prescribed by the physician.",
+      "productInsertLink": "DOLOWIN PLUS.pdf"
+  },
+  {
       "product": "DOLOWIN SR ",
       "generic_name": "Aceclofenac 200mg Tablet",
       "product_information": "50's",
       "category": "VATABLE",
       "product_price": 1400,
-      "id": 14
-    },
-    {
+      "id": 14,
+      "productDesc": "Pink colored, circular, biconvex, film-coated sustained release tablets plain on both surfaces.",
+      "productFormulation": "Each film-coated sustained release tablet contains:<br>Aceclofenac BP……………………200mg",
+      "productIndication": "It is indicated for treatment of Osteoarthritis, Rheumatoid arthritis, Spondylitis (the drug of choice), Dental pain, Post operative pain and dysmenorrhea.",
+      "productIndicationList": [],
+      "productDoseAdmin": "The usual dose of Aceclofenac 200mg sustained release is once daily given by mouth. There is no evidence that the dosage of Aceclofenac needs to be modified in patients with mild renal impairment but as with other NSAIDs caution should be exercised. There is some evidence that the dose of Aceclofenac should be reduced in patients with hepatic impairment.",
+      "productInsertLink": "DOLOWIN SR.pdf"
+  },
+  {
       "product": "CETODOL ",
       "generic_name": "Tramadol HCL 37.5mg + Paracetamol 325 mg",
       "product_information": "50's",
       "category": "VATABLE",
       "product_price": 1250,
-      "id": 15
-    },
-    {
+      "id": 15,
+      "productDesc": "Light green colored, oval shaped film-coated tablet",
+      "productFormulation": "Each film-coated tablet contains:<br>Tramadol HCl BP……37.5mg<br>Paracetamol BP………………325mg",
+      "productIndication": "Tramadol & Paracetamol indicated for management of moderate to severe pain.",
+      "productIndicationList": [],
+      "productDoseAdmin": "Please download the complete patient information leaflet for proper dosage and administration.",
+      "productInsertLink": "CETODOL.pdf"
+  },
+  {
       "product": "MEBUX 40MG",
       "generic_name": "40MG Febuxostat 40mg Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 660,
-      "id": 16
-    },
-    {
+      "id": 16,
+      "productDesc": "Brown colored, circular, biconvex, film-coated tablets with 'MICRO' engraved on one surface and plain on the other surface.",
+      "productFormulation": "Each film-coated tablet contains:<br>Febuxostat…………..40mg",
+      "productIndication": "Treatment of chronic hyperuricemia in conditions where urate deposition has already occurred (including a history or presence of tophus and/or gouty arthritis). It is indicated in adults.",
+      "productIndicationList": [],
+      "productDoseAdmin": "The recommended oral dose of Febuxostat once daily without regard to food. If serum uric acid is >6mg/dL(357 μmol) after 2-4 weeks, Febuxostat once daily may be considered. It works sufficiently quickly to allow retesting of the serum uric acid after 2 weeks. The therapeutic target is to decrease and maintain serum uric acid below 6mg/dL(357 μmol). Gout flare prophylaxis of at least 6months is recommended.",
+      "productInsertLink": "MEBUX.pdf"
+  },
+  {
       "product": "MEBUX 80MG",
       "generic_name": "80MG Febuxostat 80mg Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 930,
-      "id": 17
-    },
-    {
-      "product": "PANTOCAR ",
+      "id": 17,
+      "productDesc": "Yellow colored,circular, biconvex, film-coated tablets with 'MICRO' engraved on one surface and plain on the other surface.",
+      "productFormulation": "Each film-coated tablet contains:<br>Febuxostat…………..80mg",
+      "productIndication": "Treatment of chronic hyperuricemia in conditions where urate deposition has already occurred (including a history or presence of tophus and/or gouty arthritis). It is indicated in adults.",
+      "productIndicationList": [],
+      "productDoseAdmin": "The recommended oral dose of Febuxostat once daily without regard to food. If serum uric acid is >6mg/dL(357 μmol) after 2-4 weeks, Febuxostat once daily may be considered. It works sufficiently quickly to allow retesting of the serum uric acid after 2 weeks. The therapeutic target is to decrease and maintain serum uric acid below 6mg/dL(357 μmol). Gout flare prophylaxis of at least 6months is recommended.",
+      "productInsertLink": "MEBUX.pdf"
+  },
+  {
+      "product": "PANTOCAR",
       "generic_name": "Pantoprazole 40 mg Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 1050,
-      "id": 18
-    },
-    {
+      "id": 18,
+      "productDesc": "Light yellow colored, circular, biconvex delayed release tablets with plain on both surfaces.",
+      "productFormulation": "Each enteric-coated tablet contains:<br>Pantoprazole Sodium Sesquihydrate <br>equivalent to Pantoprazole………………………………………40 mg",
+      "productIndication": "Used for short treatment (up to 8 weeks) in the healing and symptomatic relief of erosive esophagitis (damage to the esophagus from stomach acid cause by gastroesophageal reflux disease or GERD). It is also used to treat Zollinger-Ellison Syndrome and other conditions involving excess stomach acid.",
+      "productIndicationList": [],
+      "productDoseAdmin": "The recommended dose is 20mg Pantoprazole (one tablet) per day.<br>It might be necessary to take the tablets for 2-3 consecutive days to achieve improvement of symptoms. The treatment should not exceed 4 weeks without consulting a doctor.",
+      "productInsertLink": ""
+  },
+  {
       "product": "URSODOX ",
       "generic_name": "Ursodeoxycholic Acid 250mg Capsules",
       "product_information": "100's",
       "category": "VATABLE",
       "product_price": 5000,
-      "id": 19
-    },
-    {
+      "id": 19,
+      "productDesc": "Hard gelatin capsule of size '0', with white opaque body, printed MICRO on cap and MICRO on body with black ink filled with white to off-white powder.",
+      "productFormulation": "Each hard gelatin capsule contains:<br>Ursodeoxycholic Acid………………………………250mg",
+      "productIndication": "It is indicated in the treatment of primary biliary cirrhosis (PBC) and for the dissolution of radiolucent gallstones in patients with a functioning gall bladder.",
+      "productIndicationList": [],
+      "productDoseAdmin": "There are no age restrictions on the use of Ursodeoxycholic Acid 250mg hard capsules. For patients is weighing less than 47kg or patients who are unable to swallow it, suspension is available.",
+      "productInsertLink": "URSODOX.pdf"
+  },
+  {
       "product": "GASTRIUM ",
       "generic_name": "Domperidone 10mg Tablet",
       "product_information": "100's",
       "category": "VATABLE",
       "product_price": 1150,
-      "id": 20
-    },
-    {
+      "id": 20,
+      "productDesc": "Yellow colored, flat, circular, bevel edged, uncoated tablet with a breakline on one surface.",
+      "productFormulation": "Each uncoated tablet contains:<br>Domperidone……………………..10mg",
+      "productIndication": "Domperidone is indicated for the relied of the symptoms of nausea and vomiting",
+      "productIndicationList": [],
+      "productDoseAdmin": "It is used at the lowest effective dose for the shortest duration necessary to control nausea and vomiting. It is recommended to take oral domperidone tablets before meals. It taken after meals, absorption of the drug is somewhat delayed.",
+      "productInsertLink": "GASTRIUM.pdf"
+  },
+  {
       "product": "ASKEY ",
       "generic_name": "Cetirizine HCI 10 mg Tablet",
       "product_information": "100's",
       "category": "VATABLE",
       "product_price": 1600,
-      "id": 21
-    },
-    {
+      "id": 21,
+      "productDesc": "White, small caplet shaped film coated tablets with score line on one surface and plain on the other surface",
+      "productFormulation": "Each film-coated tablet contains:<br>Cetirizine HCl BP…………………….10mg",
+      "productIndication": "<b>In adults and pediatric patients 6 year and above:</b>",
+      "productIndicationList": ["Cetirizine is indicated for the relief of symptoms of chronic idiopathic urticaria.","Cetirizine is indicated for the relief of nasal and ocular symptoms of seasonal and perennial allergic rhinitis"],
+      "productDoseAdmin": "Children aged from 6 to 12 years: <br>5mg twice daily ( a half tablet twice daily )<br>Adult and adolescents over 12 years of age: <br>10mg once daily ( 1 tablet )",
+      "productInsertLink": "ASKEY.pdf"
+  },
+  {
       "product": "ASKEY DT ",
       "generic_name": "Cetirizine Hydrochloride Dispersible Tablet",
       "product_information": "100's",
       "category": "VATABLE",
       "product_price": 600,
-      "id": 22
-    },
-    {
+      "id": 22,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "EBAST DT ",
       "generic_name": "Ebastine Dispersible Tablets 5mg",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 390,
-      "id": 23
-    },
-    {
+      "id": 23,
+      "productDesc": "Orange colored, flat, circular bevel edged uncoated dispersible tablets with a breakline on one surface having pleasant odor. ",
+      "productFormulation": "Each dispersible tablet contains:<br>Ebastine…………5mg",
+      "productIndication": "Symptomatic treatment of seasonal and perennial allergic rhinitis or rhinoconjunctivitis. Urticaria.",
+      "productIndicationList": [],
+      "productDoseAdmin": "Allergic rhinitis/ Rhino conjunctivitis: For children 12 years of age and above and adults the following dosage recommendations apply: 10mg ebastine once daily. In cases of severe symptoms the dose may be increased to 20mg ebastine once daily.",
+      "productInsertLink": "EBAST-DT.pdf"
+  },
+  {
       "product": "MICROPHYLLINE ",
       "generic_name": "Doxophylline Tablet 400mg",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 900,
-      "id": 24
-    },
-    {
+      "id": 24,
+      "productDesc": "White, flat, circular, bevel edged uncoated tablets with breakline on one surface.",
+      "productFormulation": "Each tablet contains:<br>Doxophylline…………..400mg",
+      "productIndication": "Doxophylline is indicated for the treatment of chronic obstructive pulmonary disease ( COPD ), bronchial asthma and pulmonary disease with spastic bronchial component.",
+      "productIndicationList": [],
+      "productDoseAdmin": "<span style='margin-left:.5rem'><b>Elderly Patients</b></span>: ½ tablet two or three times daily.<br><span style='margin-left:.5rem'><b>Adults</b></span>: 1 tablet two or three times daily. Or as prescribed by a physician.",
+      "productInsertLink": "MICROPHYLLINE.pdf"
+  },
+  {
       "product": "STAFOBAN CREAM ",
       "generic_name": "Fusidic acid 10g tube",
       "product_information": "1's",
       "category": "VATABLE",
       "product_price": 220,
-      "id": 25
-    },
-    {
+      "id": 25,
+      "productDesc": "White smooth cream, free from black particles.",
+      "productFormulation": "Each gram of cream contains:<br>Fusidic Acid (anhydrous)……………..20mg",
+      "productIndication": "Fusidic Acid is indicated for treatment of skin infections caused by Staphylococci, Streptococci, Cornybacterium minustissimum. Primary skin infections that may be expected to respond to treatment with Fusidic acid applied topically include: impetigo contagiosa, superfacial folliculitis, sycosis barbae, paronychia and erythrasma.",
+      "productIndicationList": [],
+      "productDoseAdmin": "Fusidic Acid cream is applied to the affected area 2-3 times daily generally for a period of 7 days, or as prescribed by physician.",
+      "productInsertLink": "STAFOBAN.pdf"
+  },
+  {
       "product": "CARTINEX ",
       "generic_name": "Ranolazine 500mg Extended-Release Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 720,
-      "id": 26
-    },
-    {
+      "id": 26,
+      "productDesc": "Orange colored, oval shaped film-coated tablet with plain on both surfaces.",
+      "productFormulation": "Each film-coated extended release tablet contains:<br>Ranolazine……..500mg ",
+      "productIndication": "Ranolazine is indicated for the treatment of chronic angina. Ranolazine may be used with beta-blockers, nitrates, calcium channel blockers, anti-platelet therapy, lipid-lowering therapy, ACE inhibitors and angiotensin receptor blockers.",
+      "productIndicationList": [],
+      "productDoseAdmin": "Initiate Ranolazine dosing at 500mg twice daily and increase to 1000mg twice daily, as needed, based on clinical symptoms. Take Ranolazine with or withour meals. The maximum recommended daily dose of Ranolazine is 1000mg twice daily.",
+      "productInsertLink": "CARTINEX 500mg.pdf"
+  },
+  {
       "product": "CARTINEX OD ",
       "generic_name": "Ranolazine 1000mg Extended-Release Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 1170,
-      "id": 27
-    },
-    {
+      "id": 27,
+      "productDesc": "Pale yellow colored capsule shaped film-coated tablet with 'ML' debossed on one side and plain on the other side.",
+      "productFormulation": "Each extended-release tablet contains:<br>Ranolazine……….1g",
+      "productIndication": "Ranolazine  is indicated for the treatment of angina pectoris in patients who have not responded satisfactorily to other anti-anginals and should be given as adjunct to standard therapy.",
+      "productIndicationList": [],
+      "productDoseAdmin": "Initiate Ranolazine dosing at 500mg twice daily and increase to 1000mg twice daily, as needed, based on clinical symptoms. Take Ranolazine with or withour meals. The maximum recommended daily dose of Ranolazine is 1000mg twice daily.",
+      "productInsertLink": "CARTINEX OD.pdf"
+  },
+  {
       "product": "CILOZOL 50MG",
       "generic_name": "50MG Cilostazol USP 50mg Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 600,
-      "id": 28
-    },
-    {
+      "id": 28,
+      "productDesc": "White to off white colored, circular shaped, biconvex, uncoated tablets with both faces plain.",
+      "productFormulation": "Each uncoated tablet contains:<br>Cilozol………..50mg",
+      "productIndication": "Cilozol is indicated for the improvement of the maximal and pain-free walking distances in patients with intermittent claudication, who do not have rest pain and who do not have evidence of peripheral tissue necrosis",
+      "productIndicationList": [],
+      "productDoseAdmin": "The recommended dosage of cilostazol is 100mg twice a day. Cilostazol should be taken 30minutes before breakfast and the evening meal. Taking Cilostazol with food has been shown to increase the maximum plasma concentration of Cilozol,which may be associated with an increased frequency of adverse reaction.",
+      "productInsertLink": "CILOZOL-50.pdf"
+  },
+  {
       "product": "CILOZOL 100MG",
       "generic_name": "100MG Cilostazol USP 100mg Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 1140,
-      "id": 29
-    },
-    {
+      "id": 29,
+      "productDesc": "White to off white colored, circular shaped, biconvex, uncoated tablets with both faces plain.",
+      "productFormulation": "Each uncoated tablet contains:<br>Cilozol………..100mg",
+      "productIndication": "Cilozol is indicated for the improvement of the maximal and pain-free walking distances in patients with intermittent claudication, who do not have rest pain and who do not have evidence of peripheral tissue necrosis",
+      "productIndicationList": [],
+      "productDoseAdmin": "The recommended dosage of cilostazol is 100mg twice a day. Cilostazol should be taken 30minutes before breakfast and the evening meal. Taking Cilostazol with food has been shown to increase the maximum plasma concentration of Cilozol,which may be associated with an increased frequency of adverse reaction.",
+      "productInsertLink": "CILOZOL-100.pdf"
+  },
+  {
       "product": "ESOFAG 20mg",
       "generic_name": "Esomeprazole Magnesium Trihydrate 20mg Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 1200,
-      "id": 30
-    },
-    {
+      "id": 30,
+      "productDesc": "Light pink colored, circular, biconvex, enteric-coated tablet and plain on the both surface.",
+      "productFormulation": "Each enteric-coated tablet contains:<br>Esomperazole Magnesium Trihydrate equivalent to Esomeprazole……….20mg",
+      "productIndication": "It is indicated in adults for Gastroesophageal Reflux Disease (GERD)",
+      "productIndicationList": ["Treatment of erosive reflux esophagitis","Long-term management of patients with healed esophagitis to prevent relapse","Symptomatic treatment of gastroesophageal reflux disease (GERD)"],
+      "productDoseAdmin": "GERD: Treatment of erosive reflux esophagitis: 40mg once daily for 4 weeks. An additional 4 weeks treatment is recommended for patients in whom esophagitis has not healed or who have persistent symptoms. ",
+      "productInsertLink": "ESOFAG 20.pdf"
+  },
+  {
       "product": "ESOFAG 40mg",
       "generic_name": "Esomeprazole Magnesium Trihydrate 40mg Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 1800,
-      "id": 31
-    },
-    {
+      "id": 31,
+      "productDesc": "Light pink colored, circular, biconvex, enteric-coated tablet and plain on the both surface.",
+      "productFormulation": "Each enteric-coated tablet contains:<br>Esomperazole Magnesium Trihydrate equivalent to Esomeprazole……….40mg",
+      "productIndication": "It is indicated in adults for Gastroesophageal Reflux Disease (GERD)",
+      "productIndicationList": ["Treatment of erosive reflux esophagitis","Long-term management of patients with healed esophagitis to prevent relapse","Symptomatic treatment of gastroesophageal reflux disease (GERD)"],
+      "productDoseAdmin": "GERD: Treatment of erosive reflux esophagitis: 40mg once daily for 4 weeks. An additional 4 weeks treatment is recommended for patients in whom esophagitis has not healed or who have persistent symptoms. ",
+      "productInsertLink": "ESOFAG 40.pdf"
+  },
+  {
       "product": "TIGLOR",
       "generic_name": "Ticagrelor 90mg Film-coated Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 930,
-      "id": 32
-    },
-    {
+      "id": 32,
+      "productDesc": "Yellow, round, biconvex, film-coated tablets debossed with 'T' above '90' on one face and plain on other surface.",
+      "productFormulation": "Each film-coated tablet contains:<br>Ticagrelor………………………….90mg",
+      "productIndication": "It is indicated for: <br>Acute Coronary Syndrome or a History of Myocardial Infarction<br>Coronary Artery Disease but No prior stroke or Myocardial Infarction<br>Acute Ischemic Stroke or Transient Ischemic Attack (TIA)",
+      "productIndicationList": [],
+      "productDoseAdmin": "Please download the complete patient information leaflet for proper dosage and administration. ",
+      "productInsertLink": "TIGLOR.pdf"
+  },
+  {
       "product": "TURBOVAS CP",
       "generic_name": "Rosuvastatin + Clopidogrel 5mg/75mg Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 420,
-      "id": 33
-    },
-    {
+      "id": 33,
+      "productDesc": "Pink cap/ Pink body size '1' hard gelatin capsules containing white to off white powder and one yellow colored circular film coated tablet.",
+      "productFormulation": "Each capsule contains:<br>Rosuvastatin (as calcium)……..5mg<br>Clopidogrel (as bisulfate)………75mg",
+      "productIndication": "It is used for the treatment for acute coronary syndrome, myocardial infarction, stroke and angina.",
+      "productIndicationList": [],
+      "productDoseAdmin": "Rosuvastatin and Clopidogrel should be taken once a day or as directed by physician. It may be given at any time of the day, with or without food.",
+      "productInsertLink": "TURBOVAS-CP.pdf"
+  },
+  {
       "product": "KEFEZY 125mg",
       "generic_name": "125MG Cefuroxime Axetil Tablet USP 125 mg",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 450,
-      "id": 34
-    },
-    {
+      "id": 34,
+      "productDesc": "White oblong shaped film-coated tablet having breakline on one side and plain on another side.",
+      "productFormulation": "Each film-coated tablet contains:<br>Cefuroxime axetil…………….500mg",
+      "productIndication": "It is indicated for the treatment of the infections listed below in adults and children from the age of 3months.    ",
+      "productIndicationList": ["Acute streptococcal tonsilitis and pharyngitis.","Acute bacterial sinusitis","Acute otitis media","Acute exacerbations of chronic bronchitis","Cystitis  ","Pyelonephritis","Uncomplicated skin adn soft tissues infections","Treatment of early Lyme disease"],
+      "productDoseAdmin": "Please download the complete patient information leaflet for proper dosage and administration. ",
+      "productInsertLink": "KEFEZY.pdf"
+  },
+  {
       "product": "URGISO 5MG",
       "generic_name": "Solifenacin Succinate 5mg",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 1200,
-      "id": 35
-    },
-    {
+      "id": 35,
+      "productDesc": "Light yellow colored, round shaped, biconvex, film-coated tablet, debossed with 'C' on one side and '24' on the other side.  ",
+      "productFormulation": "Each film-coated tablet contains:<br>Solifenacin succinate…………..5mg ",
+      "productIndication": "Symptomatic treatment of urge incontinence and/or increased urinary frequency and urgency as may occur in patients with overeactive bladder syndrome.",
+      "productIndicationList": [],
+      "productDoseAdmin": "The recommended dose is 5mg once daily. If needed, the dose may be increased to 10mg once daily.",
+      "productInsertLink": "URGISO 5mg.pdf"
+  },
+  {
       "product": "AMLOZAAR",
       "generic_name": "Losartan Potassium 50 mg Tablet + Amlodipine 5mg Tablets",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 643,
-      "id": 36
-    },
-    {
+      "id": 36,
+      "productDesc": "Yellow colored, circular, biconvex, film-coated tablet with MICRO engraved on both surfaces.",
+      "productFormulation": "Each film-coated tablet contains<br>Losartan Potassium USP……….50mg<br> Amlodipine Besilate BP  equivalent to Amlodipine………….5mg",
+      "productIndication": "For the treatment of mild to moderate hypertension in patients whose blood pressure is not adequately controlled on either monotherapy.",
+      "productIndicationList": [],
+      "productDoseAdmin": "The recommended dosage is one table once a day or as directed by the Physician.",
+      "productInsertLink": "AMLOZAAR.pdf"
+  },
+  {
       "product": "AMLOZAAR-H",
       "generic_name": "Amlodipine 5mg,Losartan Potassium 50mg+Hydrochlorothiazide 12. 5 mg Tablets",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 750,
-      "id": 37
-    },
-    {
+      "id": 37,
+      "productDesc": "Yellow colored, circular, biconvex film-coated tablet with a breakline on one surface.",
+      "productFormulation": "Each film-coated tablet contains:<br>Losartan Potassium USP………………….50mg<br>Amlodipine Besilate BP equivalent to Amlodipine……………………5mg",
+      "productIndication": "It is indicated for the treatment of essential hypertension. It may be used alone or in combination with other antihypersentive agents, including diuretics",
+      "productIndicationList": [],
+      "productDoseAdmin": "The usual recommended dose is once daily. No dose adjustment of amlodipine is required upon concomitant administration of thiazide diurectics, beta blockers, and angiotensin-converting enzyme inhibitors.",
+      "productInsertLink": "AMLOZAAR-H.pdf"
+  },
+  {
       "product": "CALCIVAS 5mg",
       "generic_name": "Amlodipine Besylate 5mg Tablet",
       "product_information": "50's",
       "category": "NON-VAT",
       "product_price": 335,
-      "id": 38
-    },
-    {
+      "id": 38,
+      "productDesc": "White to off white, flat, circular, bevel edged, uncoated tablet with a breakline on one surface and plain on other side.",
+      "productFormulation": "Each uncoated tablet contains:<br>Amlodipine (as besilate)……….5mg",
+      "productIndication": "Amlodipine is a dihydropyridine calcium channel blocker and it is used in the management of hypertension and prophylaxis of angina pectoris",
+      "productIndicationList": [],
+      "productDoseAdmin": "In hypertension the usual initial dose is 5mg once daily, increased if necessary to 10mg once daily. Similar doses are given in the treatment of stable angina and Prinzmetal's angina. Or as prescribed by the physician.",
+      "productInsertLink": "CALCIVAS 5mg.pdf"
+  },
+  {
       "product": "CALCIVAS 10mg",
       "generic_name": "Amlodipine Besylate 10mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 295,
-      "id": 39
-    },
-    {
+      "id": 39,
+      "productDesc": "White to off white, flat, circular, bevel edged, uncoated tablet with a breakline on one surface and plain on other side.",
+      "productFormulation": "Each uncoated tablet contains:<br>Amlodipine (as besilate)……….10mg",
+      "productIndication": "Amlodipine is a dihydropyridine calcium channel blocker and it is used in the management of hypertension and prophylaxis of angina pectoris",
+      "productIndicationList": [],
+      "productDoseAdmin": "In hypertension the usual initial dose is 5mg once daily, increased if necessary to 10mg once daily. Similar doses are given in the treatment of stable angina and Prinzmetal's angina. Or as prescribed by the physician.",
+      "productInsertLink": "CALCIVAS 10mg.pdf"
+  },
+  {
       "product": "NIPARTAN",
       "generic_name": "Losartan Potassium 50 mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 348,
-      "id": 40
-    },
-    {
+      "id": 40,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": "NIPARTAN.pdf"
+  },
+  {
       "product": "NIPARTAN-H",
       "generic_name": "Lozartan + Hydrochlorothiazide 50mg/12.5mg",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 388,
-      "id": 41
-    },
-    {
+      "id": 41,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": "NIPARTAN-H.pdf"
+  },
+  {
       "product": "OLMAT 20mg",
       "generic_name": "Olmesartan Medoxomil Tablet 20mg",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 482,
-      "id": 42
-    },
-    {
+      "id": 42,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "OLMAT 40mg",
       "generic_name": "Olmesartan Medoxomil Tablet 40mg",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 670,
-      "id": 43
-    },
-    {
+      "id": 43,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "BALSARTEC 80mg",
       "generic_name": "Valsartan 80mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 670,
-      "id": 44
-    },
-    {
+      "id": 44,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "BALSARTEC 160mg",
       "generic_name": "Valsartan 160mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 1018,
-      "id": 45
-    },
-    {
+      "id": 45,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "AVAS 10mg",
       "generic_name": "Atorvastatin Tablet 10mg",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 482,
-      "id": 46
-    },
-    {
+      "id": 46,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "AVAS 20mg",
       "generic_name": "Atorvastatin Tablet 20mg",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 750,
-      "id": 47
-    },
-    {
+      "id": 47,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "FIBROVAS",
       "generic_name": "Fenofibrate and Atorvastatin Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 720,
-      "id": 48
-    },
-    {
+      "id": 48,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "TURBOVAS",
       "generic_name": "Rosuvastatin Calcium 5mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 321,
-      "id": 49
-    },
-    {
+      "id": 49,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "TURBOVAS 10mg",
       "generic_name": "Rosuvastatin Calcium 10mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 589,
-      "id": 50
-    },
-    {
+      "id": 50,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "TURBOVAS 10mg",
       "generic_name": "Rosuvastatin Calcium 10mg Tablet",
       "product_information": "100's",
       "category": "NON-VAT",
       "product_price": 1964,
-      "id": 51
-    },
-    {
+      "id": 51,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "TURBOVAS 20mg",
       "generic_name": "Rosuvastatin Calcium 20mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 884,
-      "id": 52
-    },
-    {
+      "id": 52,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "MELANOV MR 30mg",
       "generic_name": "Gliclazide 30 mg Tablet",
       "product_information": "100's",
       "category": "NON-VAT",
       "product_price": 700,
-      "id": 53
-    },
-    {
+      "id": 53,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "MELANOV MR 60mg",
       "generic_name": "Gliclazide 60 mg Tablet",
       "product_information": "100's",
       "category": "NON-VAT",
       "product_price": 1275,
-      "id": 54
-    },
-    {
+      "id": 54,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "TENEPRIDE",
       "generic_name": "Teneligliptin 20mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 690,
-      "id": 55
-    },
-    {
+      "id": 55,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "MELMET SR 1000",
       "generic_name": "Metformin Hydrochloride 1000 mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 375,
-      "id": 56
-    },
-    {
+      "id": 56,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "MELMET 850",
       "generic_name": "Metformin Hydrochloride 850 mg Tablet",
       "product_information": "50's",
       "category": "NON-VAT",
       "product_price": 447,
-      "id": 57
-    },
-    {
+      "id": 57,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "MELMET SR 500 ",
       "generic_name": "Metformin Hydrochloride 500 mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 214,
-      "id": 58
-    },
-    {
+      "id": 58,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "MELANOV M ",
       "generic_name": "Gliclazide 80mg + Metformin Hydrochloride",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 504,
-      "id": 59
-    },
-    {
+      "id": 59,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "TRIPRIDE ",
       "generic_name": "Glimepiride + Pioglitazone HCL + Metformin HCL",
       "product_information": "10's",
       "category": "NON-VAT",
       "product_price": 224,
-      "id": 60
-    },
-    {
+      "id": 60,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "CARVIDON-MR",
       "generic_name": "Trimetazidine 35 mg Modified Release Tablet",
       "product_information": "100's",
       "category": "NON-VAT",
       "product_price": 1400,
-      "id": 61
-    },
-    {
+      "id": 61,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "PLAGERINE",
       "generic_name": "Clopidogrel 75mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 1050,
-      "id": 62
-    },
-    {
+      "id": 62,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "SYCLOP 25mg",
       "generic_name": "Clozapine 25mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 600,
-      "id": 63
-    },
-    {
+      "id": 63,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "SYCLOP 100mg",
       "generic_name": "Clozapine 100mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 1860,
-      "id": 64
-    },
-    {
+      "id": 64,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "SYCLOP 100mg",
       "generic_name": "Clozapine 100mg Tablet",
       "product_information": "100's",
       "category": "NON-VAT",
       "product_price": 6400,
-      "id": 65
-    },
-    {
+      "id": 65,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "RISPOND 1mg",
       "generic_name": "Risperidone 1mg Tablet",
       "product_information": "10's",
       "category": "NON-VAT",
       "product_price": 280,
-      "id": 66
-    },
-    {
+      "id": 66,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "RISPOND 2mg",
       "generic_name": "Risperidone 2mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 1680,
-      "id": 67
-    },
-    {
+      "id": 67,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "RISPOND 2mg",
       "generic_name": "Risperidone 2mg Tablet",
       "product_information": "10's",
       "category": "NON-VAT",
       "product_price": 560,
-      "id": 68
-    },
-    {
+      "id": 68,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "RISPOND 4mg",
       "generic_name": "Risperidone 4mg Tablet",
       "product_information": "10's",
       "category": "NON-VAT",
       "product_price": 1010,
-      "id": 69
-    },
-    {
+      "id": 69,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "Q-WIN 25mg",
       "generic_name": "Quetiapine 25mg Tablet",
       "product_information": "50's",
       "category": "NON-VAT",
       "product_price": 1600,
-      "id": 70
-    },
-    {
+      "id": 70,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "Q-WIN 100mg",
       "generic_name": "Quetiapine 100mg Tablet",
       "product_information": "50's",
       "category": "NON-VAT",
       "product_price": 2850,
-      "id": 71
-    },
-    {
+      "id": 71,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "Q-WIN 200mg",
       "generic_name": "Quetiapine 200mg Tablet",
       "product_information": "50's",
       "category": "NON-VAT",
       "product_price": 5350,
-      "id": 72
-    },
-    {
+      "id": 72,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "OLAN 5MG",
       "generic_name": "Olanzapine 5mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 1350,
-      "id": 73
-    },
-    {
+      "id": 73,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "OLAN 10MG",
       "generic_name": "Olanzapine 10mg Tablet",
       "product_information": "100's",
       "category": "NON-VAT",
       "product_price": 8800,
-      "id": 74
-    },
-    {
+      "id": 74,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "OLAN ODT",
       "generic_name": "10MG Olanzapine 10mg Orodispersible Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 2640,
-      "id": 75
-    },
-    {
+      "id": 75,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "OLAN ODT 5MG",
       "generic_name": "Olanzapine 5mg Orodispersible Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 1350,
-      "id": 76
-    },
-    {
+      "id": 76,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "MIRAZEP",
       "generic_name": "Mirtazapine 30mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 1560,
-      "id": 77
-    },
-    {
+      "id": 77,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "ZOTRAL",
       "generic_name": "Setraline 50mg Tablet",
       "product_information": "100's",
       "category": "NON-VAT",
       "product_price": 3000,
-      "id": 78
-    },
-    {
+      "id": 78,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "S-CELEPRA 5mg",
       "generic_name": "Escitalopram Oxalate 5mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 390,
-      "id": 79
-    },
-    {
+      "id": 79,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "S-CELEPRA 10mg",
       "generic_name": "Escitalopram Oxalate 10mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 960,
-      "id": 80
-    },
-    {
+      "id": 80,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "S-CELEPRA 20mg",
       "generic_name": "Escitalopram Oxalate 20mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 1500,
-      "id": 81
-    },
-    {
+      "id": 81,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "NEUROCETAM 800mg",
       "generic_name": "Piracetam 800mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 480,
-      "id": 82
-    },
-    {
+      "id": 82,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "NEUROCETAM 1200mg",
       "generic_name": "Piracetam 1200mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 750,
-      "id": 83
-    },
-    {
+      "id": 83,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "NUROCOL",
       "generic_name": "Citicoline 500mg Tablet",
       "product_information": "10's",
       "category": "NON-VAT",
       "product_price": 500,
-      "id": 84
-    },
-    {
+      "id": 84,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "MICROLIT 400mg",
       "generic_name": "Lithium Carbonate Sustained Release 400 mg Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 240,
-      "id": 85
-    },
-    {
+      "id": 85,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "LAMOTRIN ODT/25mg",
       "generic_name": "Lamotrigine 25mg Orally Dispersible Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 390,
-      "id": 86
-    },
-    {
+      "id": 86,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "LAMOTRIN ODT/50mg",
       "generic_name": "Lamotrigine 50mg Orally Dispersible Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 660,
-      "id": 87
-    },
-    {
+      "id": 87,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "LAMOTRIN ODT/100mg",
       "generic_name": "Lamotrigine 100mg Orally Dispersible Tablet",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 930,
-      "id": 88
-    },
-    {
+      "id": 88,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "CARBOX 300mg",
       "generic_name": "Oxcarbazepine 300mg",
       "product_information": "50's",
       "category": "NON-VAT",
       "product_price": 850,
-      "id": 89
-    },
-    {
+      "id": 89,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "CARBOX 600mg",
       "generic_name": "Oxcarbazepine 600mg",
       "product_information": "50's",
       "category": "NON-VAT",
       "product_price": 1450,
-      "id": 90
-    },
-    {
+      "id": 90,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "NEURICA",
       "generic_name": "Pregabalin 75mg Capsule",
       "product_information": "30's",
       "category": "NON-VAT",
       "product_price": 990,
-      "id": 91
-    },
-    {
+      "id": 91,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "EPITOP 25mg",
       "generic_name": "Topiramate 25mg Tablet",
       "product_information": "50's",
       "category": "VATABLE",
       "product_price": 750,
-      "id": 92
-    },
-    {
+      "id": 92,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "EPITOP 50mg",
       "generic_name": "Topiramate 50mg Tablet",
       "product_information": "50's",
       "category": "VATABLE",
       "product_price": 1350,
-      "id": 93
-    },
-    {
+      "id": 93,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "EPITOP 100mg",
       "generic_name": "Topiramate 100mg Tablet",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 1560,
-      "id": 94
-    },
-    {
+      "id": 94,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "GABALEPT 300mg",
       "generic_name": "Gabapentin 300mg Capsule",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 718.5,
-      "id": 95
-    },
-    {
+      "id": 95,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "LEVACETAM 500mg",
       "generic_name": "Levetiracetam Tablets USP 500mg",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 930,
-      "id": 96
-    },
-    {
+      "id": 96,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "PARDOPA",
       "generic_name": "Levodopa & Carbidopa Tablets",
       "product_information": "60's",
       "category": "VATABLE",
       "product_price": 2400,
-      "id": 97
-    },
-    {
+      "id": 97,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "PRIDEL-1mg",
       "generic_name": "Pramipexole Dihydrochloride 1mg Tablets",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 1470,
-      "id": 98
-    },
-    {
+      "id": 98,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "PRIDEL-250MCG",
       "generic_name": "Pramipexole Dihydrochloride 0.25mg Tablets",
       "product_information": "30's",
       "category": "VATABLE",
       "product_price": 600,
-      "id": 99
-    },
-    {
+      "id": 99,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  },
+  {
       "product": "MICROLIT 300mg",
       "generic_name": "Lithium Carbonate 300mg",
       "product_information": "50's",
       "category": "VATABLE",
       "product_price": 300,
-      "id": 100
-    }
-  ]
+      "id": 100,
+      "productDesc": "",
+      "productFormulation": "",
+      "productIndication": "",
+      "productIndicationList": [],
+      "productDoseAdmin": "",
+      "productInsertLink": ""
+  }
+]

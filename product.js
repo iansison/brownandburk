@@ -15,6 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const productGenericName = document.querySelector('.product-link');
     const productPrice = document.querySelector('.product-price h2');
     const productByQuantity = document.querySelector('.product-quantity p span');
+    const productDesc = document.querySelector('.product-detail p');
+    const productIndication = document.querySelector('.product-indication')
 
     console.log(productID); // Output: 3 (or the correct productID)
 
@@ -57,9 +59,68 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.querySelector('.product-rating span').textContent = `5(${(Math.random()*500+1).toFixed(0)})`
                 productName.innerHTML = `<b>${foundProduct.product}</b>`;
                 productGenericName.textContent = `${foundProduct.generic_name}`;
-                productGenericName.textContent = `${foundProduct.generic_name}`;
                 productPrice.textContent = `Php ${foundProduct.product_price}.00`
                 productByQuantity.textContent = `${foundProduct.product_information}`
+                productDesc.textContent = foundProduct.productDesc;
+                // if(foundProduct.productIndicationList.length === 0) {
+                if (foundProduct.productIndicationList && foundProduct.productIndicationList.length === 0) {
+                    console.log(foundProduct)
+                    html = `
+                    <li>Indication:
+                        <ul class="indication-info">
+                            ${foundProduct.productIndication}
+                        </ul>
+                    </li>
+                    <li>
+                        Formulation: <br>
+                        <span>${foundProduct.productFormulation}
+                        </span>
+                    </li>   
+                    <li>
+                        Dosage & Administration: <br>
+                        <span>${foundProduct.productDoseAdmin}
+                        </span>
+                    </li>       
+                    <a href="./product-inserts/${foundProduct.productInsertLink}" title="button" class="button"download><strong>Download Product Inserts</strong></a>
+                    `;
+                    productIndication.insertAdjacentHTML('afterbegin',html);
+                } else {
+                    html = `
+                    <li>Indication:
+                        <ul class="indication-info"> ${foundProduct.productIndication}
+                    
+                    `;
+                    foundProduct.productIndicationList.forEach((indication, index) => {
+                        html+= `
+
+                            <li class="indication-list">• ${indication}</li>
+
+                        
+                        `
+                    })
+                    html+=`
+                    
+                        </ul>
+                    </li>    
+                    <li>
+                        Formulation: <br>
+                        <span>${foundProduct.productFormulation}
+                        </span>
+                    </li>            
+                    <li>
+                        Dosage & Administration: <br>
+                        <span>${foundProduct.productDoseAdmin}
+                        </span>
+                    </li>          
+                    <a href="./product-inserts/${foundProduct.productInsertLink}" title="button" class="button"download><strong>Download Product Inserts</strong></a>
+
+                    `
+
+                    console.log(html)
+                    productIndication.insertAdjacentHTML('afterbegin',html);
+
+                }
+
             } else {
                 console.error(`Product with ID ${productID} not found`);
                 // Handle this case (e.g., display an error message or redirect)

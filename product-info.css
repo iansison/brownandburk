@@ -18,10 +18,13 @@ body h2 {
 }
 main {
     margin: .75rem auto;
+    height: 100% !important;
 }
 .card-wrapper{
-    max-width: 1100px;
-    margin: 0 auto;
+  max-width: 1500px;
+  margin: 0 auto;
+  transform: scale(0.85);
+  height: 100% !important;
 }
 img:not(.bb-logo){
     width: 100%;
@@ -130,16 +133,35 @@ img:not(.bb-logo){
 }
 .product-detail ul li{
     margin: 0;
-    list-style: none;
-    background: url(https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/checked.png) left center no-repeat;
-    background-size: 18px;
-    padding-left: 1.7rem;
+    /* list-style: none; */
+    /* padding-left: 1.7rem; */
     margin: 0.4rem 0;
-    font-weight: 600;
-    opacity: 0.9;
+    font-weight: 800;
+    opacity: 1;
 }
 .product-detail ul li span{
     font-weight: 400;
+}
+.product-indication > * {
+    font-weight: 700 !important;
+}
+.indication-info {
+    margin-top: 0 !important;
+    font-weight: 400 !important
+}
+.indication-list {
+    /* margin: 0; */
+    list-style: none;
+    /* padding-left: 1.7rem; */
+    /* margin: 0.4rem 0;
+    margin-left: 1rem; */
+    padding-left: 1rem;
+    font-weight: 600;
+    opacity: 0.9;
+    font-weight: 400 !important;
+}
+.indication-list::marker{
+    padding-left: 5rem !important;
 }
 .purchase-info{
     margin: 1.5rem 0;
@@ -218,4 +240,22 @@ img:not(.bb-logo){
     .product-content{
         padding-top: 0;
     }
+}
+
+.button {
+    width: 50%;
+    color: white;
+    display:  block;
+    margin-top: 1rem;
+    padding: 1em 2em;
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    transition: .3s ease-in;
+    text-align: center;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+    border: .5px solid black;
 }

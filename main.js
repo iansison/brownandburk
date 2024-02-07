@@ -150,7 +150,6 @@ function displayProducts(products) {
   });
 }
 
-
 let originalProducts = []; // Store the original unfiltered products
 let clickedProduct;
 
@@ -267,20 +266,20 @@ const searched = url.searchParams.get('search');
 
 
 
-if (window.location.pathname === '/product-info.html') {
-  // Get the URL parameters
-  const queryString = window.location.search;
-  const urlParams = new URLSearchParams(queryString);
+// if (window.location.pathname === '/product-info.html') {
+//   // Get the URL parameters
+//   const queryString = window.location.search;
+//   const urlParams = new URLSearchParams(queryString);
 
-  // Get the value of 'productID' from the URL
-  const productID = urlParams.get('productID');
-  //console.log(productID); // This will log the value of 'productID'
-  searchInput.addEventListener('keydown', (e) => {
-    if(e.keycode === 13) {
-      window.location.href = '/products.html';
-    }
-  })
-}
+//   // Get the value of 'productID' from the URL
+//   const productID = urlParams.get('productID');
+//   //console.log(productID); // This will log the value of 'productID'
+//   searchInput.addEventListener('keydown', (e) => {
+//     if(e.keycode === 13) {
+//       window.location.href = '/products.html';
+//     }
+//   })
+// }
 
 
 // function displayProductsInformation(productsInformation) {
