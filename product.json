@@ -560,11 +560,11 @@
       "category": "NON-VAT",
       "product_price": 348,
       "id": 40,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
+      "productDesc": "Bluish green colored, circular, biconvex film-coated tablets",
+      "productFormulation": "Each film-coated tablets contains:<br>Losartan Potassium……50mg",
+      "productIndication": "Used in the management of hypertension, diabetic nephropathy in type 2 diabetes mellitus",
       "productIndicationList": [],
-      "productDoseAdmin": "",
+      "productDoseAdmin": "In hypertension the usual dose is 50mg once daily. The maximum effect is achieved in about 3 to 6 weeks after initiating treatment. The dose may be increased, if necessary to 100mg daily In one or two divided doses or as directed by the physician.",
       "productInsertLink": "NIPARTAN.pdf"
   },
   {
@@ -574,11 +574,11 @@
       "category": "NON-VAT",
       "product_price": 388,
       "id": 41,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
+      "productDesc": "Orange colored, circular, biconvex film-coated tablets with a breakline on one surface.",
+      "productFormulation": "Each film-coated tablet contains:<br>Losartan Potassium………………..50mg<br>Hydrochlorothiazide………………12.5mg",
+      "productIndication": "Losartan Potassium + Hydrochlorothiazide (Nipartan-H) is indicated for the treatment of hypertension.",
       "productIndicationList": [],
-      "productDoseAdmin": "",
+      "productDoseAdmin": "The usual dosage recommended is one tablet daily in the morning. The usual daily dosage recommended for the treatment of hypertension is 25-100mg and 25-50mg for Losartan and Hydrochlorothiazide respectively.",
       "productInsertLink": "NIPARTAN-H.pdf"
   },
   {
@@ -588,12 +588,12 @@
       "category": "NON-VAT",
       "product_price": 482,
       "id": 42,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
+      "productDesc": "White, circular, biconvex, film-coated tablets plain on both sides.",
+      "productFormulation": "Each film-coated tablet contains:<br>      Olmesartan medoxomil………….20 mg",
+      "productIndication": "Treatment of essential hypertension.",
       "productIndicationList": [],
-      "productDoseAdmin": "",
-      "productInsertLink": ""
+      "productDoseAdmin": "Adult 10 – 40 mg once daily.",
+      "productInsertLink": "OLMAT 20mg.pdf"
   },
   {
       "product": "OLMAT 40mg",
@@ -602,12 +602,12 @@
       "category": "NON-VAT",
       "product_price": 670,
       "id": 43,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
+      "productDesc": "White, circular, biconvex, film-coated tablets with breakline on one surface and plain on the other surface.",
+      "productFormulation": "Each film-coated tablet contains:<br>      Olmesartan medoxomil………….40 mg",
+      "productIndication": "Treatment of essential hypertension.",
       "productIndicationList": [],
-      "productDoseAdmin": "",
-      "productInsertLink": ""
+      "productDoseAdmin": "Adult 10 – 40 mg once daily.",
+      "productInsertLink": "OLMAT 40mg.pdf"
   },
   {
       "product": "BALSARTEC 80mg",
@@ -616,12 +616,12 @@
       "category": "NON-VAT",
       "product_price": 670,
       "id": 44,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
-      "productIndicationList": [],
-      "productDoseAdmin": "",
-      "productInsertLink": ""
+      "productDesc": "Pink colored, circular shaped, biconvex, film-coated tablet with breakline on one surface and plain on other surface. Breakline is to facilitate breaking for ease of swallowing and not for dividing into equal doses.   ",
+      "productFormulation": "Each film-coated tablet contains:<br>Valsartan USP……….80mg ",
+      "productIndication": "Treatment for the following:",
+      "productIndicationList": ["Hypertension"," Recent myocardial infarction","Heart failure"],
+      "productDoseAdmin": "Hypertension: The recommended starting dose of Valsartan is 80mg once daily.<br><br>Recent myocardial infarction: Initial dose of 20mg twice daily, valsartan should be titrated to 40mg, 80mg and 160mg twice daily over the next few weeks. The starting dose is provided by the 40mg divisible tablet.<br><br>Heart Failure: The recommended starting dose of Valsartan is 40mg twice daily. Up titration to 80mg and 160mg twice daily should be done at intervals of at least two weeks to the highest dose, as tolerated by the patient.",
+      "productInsertLink": "BALSARTEC-80.pdf"
   },
   {
       "product": "BALSARTEC 160mg",
@@ -630,12 +630,12 @@
       "category": "NON-VAT",
       "product_price": 1018,
       "id": 45,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
-      "productIndicationList": [],
-      "productDoseAdmin": "",
-      "productInsertLink": ""
+      "productDesc": "Pink colored, oval shaped, biconvex, film-coated tablet plain on both surface.",
+      "productFormulation": "Each film-coated tablet contains:<br>Valsartan USP……….160mg ",
+      "productIndication": "Treatment for the following:",
+      "productIndicationList": ["Hypertension"," Recent myocardial infarction","Heart failure"],
+      "productDoseAdmin": "Hypertension: The recommended starting dose of Valsartan is 80mg once daily.<br><br>Recent myocardial infarction: Initial dose of 20mg twice daily, valsartan should be titrated to 40mg, 80mg and 160mg twice daily over the next few weeks. The starting dose is provided by the 40mg divisible tablet.<br><br>Heart Failure: The recommended starting dose of Valsartan is 40mg twice daily. Up titration to 80mg and 160mg twice daily should be done at intervals of at least two weeks to the highest dose, as tolerated by the patient.",
+      "productInsertLink": "BALSARTEC-160.pdf"
   },
   {
       "product": "AVAS 10mg",
@@ -644,12 +644,12 @@
       "category": "NON-VAT",
       "product_price": 482,
       "id": 46,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
+      "productDesc": "Brownish orange colored, circular, biconvex, film-coated tablet with plain on both surfaces.",
+      "productFormulation": "Each film-coated tablet contains:       Atorvastatin (as calcium)…………………..10mg",
+      "productIndication": "Atorvastatin is used to reduce LDL-cholesterol, apo lipoprotein B, and triglyceride and to increase HDL-cholesterol in the treatment of hyperlipidemia, including hypercholesterolemia and combined (mixed) hyperlipidemia (type IIA or IIB hyperlipoproteinemia), hypertriglyceridemia (type IV), and dysbetalipoproteinemia (type III); can also be effective as adjunctive therapy in patients with homozygous familial hypercholesterolemia who have some LDL-receptor function.",
       "productIndicationList": [],
-      "productDoseAdmin": "",
-      "productInsertLink": ""
+      "productDoseAdmin": "The patient should be placed on a standard cholesterol-lowering diet before receiving Atorvastatin and should continue on this diet during treatment with Atorvastin. The dose should be individualized accoring to baseline LDL-C levels, the goal of therapy and patient response. The usual starting dose is 10mg once a day. Adjustment of dose should be made at intervals of 4 weeks or more. The maximum dose is 80mg once a day.",
+      "productInsertLink": "AVAS 10mg.pdf"
   },
   {
       "product": "AVAS 20mg",
@@ -658,12 +658,12 @@
       "category": "NON-VAT",
       "product_price": 750,
       "id": 47,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
+      "productDesc": "Brownish orange colored, circular, biconvex, film-coated tablets with a breakline on one surface. ",
+      "productFormulation": "Each film-coated tablet contains:       Atorvastatin (as calcium)…………………..20mg",
+      "productIndication": "Atorvastatin is used to reduce LDL-cholesterol, apo lipoprotein B, and triglyceride and to increase HDL-cholesterol in the treatment of hyperlipidemia, including hypercholesterolemia and combined (mixed) hyperlipidemia (type IIA or IIB hyperlipoproteinemia), hypertriglyceridemia (type IV), and dysbetalipoproteinemia (type III); can also be effective as adjunctive therapy in patients with homozygous familial hypercholesterolemia who have some LDL-receptor function.",
       "productIndicationList": [],
-      "productDoseAdmin": "",
-      "productInsertLink": ""
+      "productDoseAdmin": "The patient should be placed on a standard cholesterol-lowering diet before receiving Atorvastatin and should continue on this diet during treatment with Atorvastin. The dose should be individualized accoring to baseline LDL-C levels, the goal of therapy and patient response. The usual starting dose is 10mg once a day. Adjustment of dose should be made at intervals of 4 weeks or more. The maximum dose is 80mg once a day.",
+      "productInsertLink": "AVAS 20mg.pdf"
   },
   {
       "product": "FIBROVAS",
@@ -672,12 +672,12 @@
       "category": "NON-VAT",
       "product_price": 720,
       "id": 48,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
+      "productDesc": "Yellow colored, circular, biconvex, film-coated tablet with breakline on one surface and plain on the other surface.",
+      "productFormulation": "Each film-coated tablet contains:<br>Fenofibrate BP…………..160mg<br>Atorvastatin calcium…………..10mg",
+      "productIndication": "Combined hyperlipidemia Fibrovas is indicated as an adjunct to diet to reduce elevated total-C, LDL, C, apo B, and TG levels and to increase HDL-C in these patients. Lipid altering agents should be used in addition to diet restricted in saturated fat and cholesterol only when the response to diet and other non-pharmacological measures has been inadequate.",
       "productIndicationList": [],
-      "productDoseAdmin": "",
-      "productInsertLink": ""
+      "productDoseAdmin": "Patients should be placed on a appropriate lipid-lowering diet before receiving Fibrovas, and should continue this diet during treatment. Fibrovas should  be given with meals, thereby optimizing the bioavailability of the medication. The recommended dosage is one tablet once daily.",
+      "productInsertLink": "FIBROVAS.pdf"
   },
   {
       "product": "TURBOVAS",
@@ -686,12 +686,12 @@
       "category": "NON-VAT",
       "product_price": 321,
       "id": 49,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
+      "productDesc": "Brownish pink colored, circular, biconvex, film-coated tablet      ",
+      "productFormulation": "Each film-coated tablet contains: <br> Rosuvastatin calcium……………….5mg",
+      "productIndication": "Hyperlipidemias including primary hypercholesterolemia ( type IIa ), mixed dyslipidemia ( type IIb ) & hypertriglyceridemia ( type IV ) & homozygous familial hypercholesterolemia. Reduce the progression of atherosclerosis. ",
       "productIndicationList": [],
-      "productDoseAdmin": "",
-      "productInsertLink": ""
+      "productDoseAdmin": "Starting dose: 10 mg once daily. Patients requiring less aggressive LDL-cholesterol reductions or predisposed for myopathy. Initially 5 mg once daily. Turbovas-20 Initial dose: 5 or 10 mg once daily. <br>Maintenance: 5-40 mg once daily. Patients w/ high CV risk who do not achieve target cholesterol concentration lower doses & risk factors for adverse effects 40 mg. Severe renal impairment ( CrCl < 30 mL/min/1.73 m²  ). <br>Initially 5 mg once daily. Max: 10 mg once daily.",
+      "productInsertLink": "TURBOVAS-5.pdf"
   },
   {
       "product": "TURBOVAS 10mg",
@@ -700,12 +700,12 @@
       "category": "NON-VAT",
       "product_price": 589,
       "id": 50,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
+      "productDesc": "Brownish pink colored, circular, biconvex film-coated tablet with a breakline on one surface.",
+      "productFormulation": "Each film-coated tablet contains: <br> Rosuvastatin calcium……………….10mg ",
+      "productIndication": "Hyperlipidemias including primary hypercholesterolemia ( type IIa ), mixed dyslipidemia ( type IIb ) & hypertriglyceridemia ( type IV ) & homozygous familial hypercholesterolemia. Reduce the progression of atherosclerosis. ",
       "productIndicationList": [],
-      "productDoseAdmin": "",
-      "productInsertLink": ""
+      "productDoseAdmin": "Starting dose: 10 mg once daily. Patients requiring less aggressive LDL-cholesterol reductions or predisposed for myopathy. Initially 5 mg once daily. Turbovas-20 Initial dose: 5 or 10 mg once daily. <br>Maintenance: 5-40 mg once daily. Patients w/ high CV risk who do not achieve target cholesterol concentration lower doses & risk factors for adverse effects 40 mg. Severe renal impairment ( CrCl < 30 mL/min/1.73 m²  ). <br>Initially 5 mg once daily. Max: 10 mg once daily.",
+      "productInsertLink": "TURBOVAS-10.pdf"
   },
   {
       "product": "TURBOVAS 10mg",
@@ -714,12 +714,12 @@
       "category": "NON-VAT",
       "product_price": 1964,
       "id": 51,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
+      "productDesc": "Brownish pink colored, circular, biconvex film-coated tablet with a breakline on one surface.",
+      "productFormulation": "Each film-coated tablet contains: <br> Rosuvastatin calcium……………….10mg ",
+      "productIndication": "Hyperlipidemias including primary hypercholesterolemia ( type IIa ), mixed dyslipidemia ( type IIb ) & hypertriglyceridemia ( type IV ) & homozygous familial hypercholesterolemia. Reduce the progression of atherosclerosis. ",
       "productIndicationList": [],
-      "productDoseAdmin": "",
-      "productInsertLink": ""
+      "productDoseAdmin": "Starting dose: 10 mg once daily. Patients requiring less aggressive LDL-cholesterol reductions or predisposed for myopathy. Initially 5 mg once daily. Turbovas-20 Initial dose: 5 or 10 mg once daily. <br>Maintenance: 5-40 mg once daily. Patients w/ high CV risk who do not achieve target cholesterol concentration lower doses & risk factors for adverse effects 40 mg. Severe renal impairment ( CrCl < 30 mL/min/1.73 m²  ). <br>Initially 5 mg once daily. Max: 10 mg once daily.",
+      "productInsertLink": "TURBOVAS-10.pdf"
   },
   {
       "product": "TURBOVAS 20mg",
@@ -728,12 +728,12 @@
       "category": "NON-VAT",
       "product_price": 884,
       "id": 52,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
+      "productDesc": "Orange colored, circular, biconvex, film-coated tablet with 'MICRO' engraved on one surface and plain on other surface.",
+      "productFormulation": "Each film-coated tablet contains: <br> Rosuvastatin calcium……………….20mg ",
+      "productIndication": "Hyperlipidemias including primary hypercholesterolemia ( type IIa ), mixed dyslipidemia ( type IIb ) & hypertriglyceridemia ( type IV ) & homozygous familial hypercholesterolemia. Reduce the progression of atherosclerosis. ",
       "productIndicationList": [],
-      "productDoseAdmin": "",
-      "productInsertLink": ""
+      "productDoseAdmin": "Starting dose: 10 mg once daily. Patients requiring less aggressive LDL-cholesterol reductions or predisposed for myopathy. Initially 5 mg once daily. Turbovas-20 Initial dose: 5 or 10 mg once daily. <br>Maintenance: 5-40 mg once daily. Patients w/ high CV risk who do not achieve target cholesterol concentration lower doses & risk factors for adverse effects 40 mg. Severe renal impairment ( CrCl < 30 mL/min/1.73 m²  ). <br>Initially 5 mg once daily. Max: 10 mg once daily.",
+      "productInsertLink": "TURBOVAS-20.pdf"
   },
   {
       "product": "MELANOV MR 30mg",
@@ -742,12 +742,12 @@
       "category": "NON-VAT",
       "product_price": 700,
       "id": 53,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
+      "productDesc": "White, caplet shaped uncoated tablets with breakline on one surface.      ",
+      "productFormulation": "Each uncoated  modified release tablet contains:<br>Gliclazide………………………………….30 mg",
+      "productIndication": "For the treatment of Type II Diabetes Mellitus.",
       "productIndicationList": [],
-      "productDoseAdmin": "",
-      "productInsertLink": ""
+      "productDoseAdmin": "The daily dose may vary from ½ - 2 tablet daily ( 30-120mg ) taken orally in a single intake at breakfast. As with any hypoglycemic agent, the dose should be adjusted according to the individual patients metabolic response ( blood glucose, HbAIc ).",
+      "productInsertLink": "MELANOV MR 30.pdf"
   },
   {
       "product": "MELANOV MR 60mg",
@@ -756,12 +756,12 @@
       "category": "NON-VAT",
       "product_price": 1275,
       "id": 54,
-      "productDesc": "",
-      "productFormulation": "",
-      "productIndication": "",
+      "productDesc": "White, caplet shaped uncoated tablets with breakline on one surface and plain on the other side.",
+      "productFormulation": "Each uncoated  modified release tablet contains:<br>Gliclazide………………………………….30 mg",
+      "productIndication": "For the treatment of Type II Diabetes Mellitus.",
       "productIndicationList": [],
-      "productDoseAdmin": "",
-      "productInsertLink": ""
+      "productDoseAdmin": "The daily dose may vary from ½ - 2 tablet daily ( 30-120mg ) taken orally in a single intake at breakfast. As with any hypoglycemic agent, the dose should be adjusted according to the individual patients metabolic response ( blood glucose, HbAIc ).",
+      "productInsertLink": "MELANOV MR 60.pdf"
   },
   {
       "product": "TENEPRIDE",

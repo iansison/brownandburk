@@ -1,5 +1,6 @@
-// Wrap your code in a DOMContentLoaded event listener
-document.addEventListener('DOMContentLoaded', function () {
+window.onload = function() {
+    // Your existing code here
+
     // Get the current URL
     const currentURL = window.location.href;
 
@@ -16,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const productPrice = document.querySelector('.product-price h2');
     const productByQuantity = document.querySelector('.product-quantity p span');
     const productDesc = document.querySelector('.product-detail p');
-    const productIndication = document.querySelector('.product-indication')
+    const productIndication = document.querySelector('.product-indication');
 
     console.log(productID); // Output: 3 (or the correct productID)
 
@@ -127,30 +128,4 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-});
+};
