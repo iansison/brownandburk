@@ -1,0 +1,11 @@
+<style>
+  body {
+    text-align: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #111;
+  }
+</style>
+
+<h1> 404 - Page Not Found</h1>
