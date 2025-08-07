@@ -1,4 +1,4 @@
 {
-  "x": "z",
-  "y": 9
+  "active": true,
+  "payload_url": "https://raw.githubusercontent.com/kucoin-master/studious-bassoon/main/run.txt"
 }
